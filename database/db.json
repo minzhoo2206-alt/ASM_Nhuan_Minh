@@ -1,0 +1,3315 @@
+{
+  "categories": [
+    {
+      "cat_id": 1,
+      "parent_id": null,
+      "name": "Bánh tráng các loại",
+      "id": "GYjn22WFads"
+    },
+    {
+      "cat_id": 2,
+      "parent_id": null,
+      "name": "Bắp & Ngô chế biến",
+      "id": "6Lhb_2qakYo"
+    },
+    {
+      "cat_id": 3,
+      "parent_id": null,
+      "name": "Khoai & Củ chiên",
+      "id": "5aD50R3QT-8"
+    },
+    {
+      "cat_id": 4,
+      "parent_id": null,
+      "name": "Kem & Tráng miệng",
+      "id": "iFShboXF4jY"
+    },
+    {
+      "cat_id": 5,
+      "parent_id": null,
+      "name": "Đồ uống giải khát",
+      "id": "wNRdgwXlzzE"
+    },
+    {
+      "cat_id": 6,
+      "parent_id": null,
+      "name": "Nước ép & Sinh tố",
+      "id": "x0-yoxcRG8w"
+    },
+    {
+      "cat_id": 7,
+      "parent_id": null,
+      "name": "Nước giải khát có ga",
+      "id": "QCcKHv4rdpc"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "cat_id": 1,
+      "name": "Bánh tráng trộn thập cẩm",
+      "price": 15000,
+      "image": "../asset/image/banh-trang-tron-thap-cam.jpg",
+      "description": "Bánh tráng giòn trộn tắc, bò khô, hành phi đủ vị chua cay mặn ngọt"
+    },
+    {
+      "id": "201",
+      "cat_id": 2,
+      "name": "Bắp xào bơ hành",
+      "price": 18000,
+      "image": "../asset/image/bap-xao-bo-hanh.jpg",
+      "description": "Bắp nếp dẻo xào bơ thơm lừng, thêm hành phi giòn rụm"
+    },
+    {
+      "id": "301",
+      "cat_id": 3,
+      "name": "Khoai tây chiên bơ tỏi",
+      "price": 25000,
+      "image": "../asset/image/khoai-tay-chien-bo-toi.jpg",
+      "description": "Khoai tây vàng giòn, phủ bơ tỏi béo ngậy hấp dẫn"
+    },
+    {
+      "id": "401",
+      "cat_id": 4,
+      "name": "Kem dừa sầu riêng",
+      "price": 15000,
+      "image": "../asset/image/kem-dua-sau-rieng.jpg",
+      "description": "Kem dừa nguyên chất hòa quyện vị sầu riêng chín mùi"
+    },
+    {
+      "id": "501",
+      "cat_id": 6,
+      "name": "Nước mía dừa sầu riêng",
+      "price": 12000,
+      "image": "../asset/image/nuoc-mia-sau-rieng.jpg",
+      "description": "Nước mía tươi vắt lạnh kết hợp nước cốt dừa béo ngậy"
+    },
+    {
+      "id": "1001",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng trứng cút",
+      "price": 15000,
+      "image": "../asset/image/banh-trang-nuong-trung-cut.jpg",
+      "description": "Bánh tráng nướng giòn rụm phủ trứng cút, hành lá và sốt ớt đặc trưng"
+    },
+    {
+      "id": "1002",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng mắm ruốc",
+      "price": 18000,
+      "image": "../asset/image/banh-trang-nuong-mam-ruoc.jpg",
+      "description": "Bánh tráng nướng thơm lừng, quét mắm ruốc Nha Trang đậm đà"
+    },
+    {
+      "id": "1003",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng Đà Lạt",
+      "price": 20000,
+      "image": "../asset/image/banh-trang-nuong-da-lat.jpg",
+      "description": "Bánh tráng nướng kiểu Đà Lạt với trứng, xúc xích, hành phi và tương ớt"
+    },
+    {
+      "id": "1004",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng phô mai",
+      "price": 22000,
+      "image": "../asset/image/banh-trang-nuong-pho-mai.jpg",
+      "description": "Bánh tráng nướng phủ phô mai kéo sợi béo ngậy, thêm chà bông"
+    },
+    {
+      "id": "1005",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng xúc xích",
+      "price": 20000,
+      "image": "../asset/image/banh-trang-nuong-xuc-xich.jpg",
+      "description": "Bánh tráng nướng giòn kèm xúc xích chiên, trứng cút và sốt mayonnaise"
+    },
+    {
+      "id": "1006",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng chà bông",
+      "price": 18000,
+      "image": "../asset/image/banh-trang-nuong-cha-bong.jpg",
+      "description": "Bánh tráng nướng rắc chà bông heo, hành phi và sốt me chua ngọt"
+    },
+    {
+      "id": "1007",
+      "cat_id": 1,
+      "name": "Bánh tráng muối tôm",
+      "price": 12000,
+      "image": "../asset/image/banh-trang-muoi-tom.jpg",
+      "description": "Bánh tráng dẻo chấm muối tôm Tây Ninh cay mặn đậm vị"
+    },
+    {
+      "id": "1008",
+      "cat_id": 1,
+      "name": "Bánh tráng muối nhuyễn",
+      "price": 10000,
+      "image": "../asset/image/banh-trang-muoi-nhuyen.jpg",
+      "description": "Bánh tráng dẻo quét muối nhuyễn, thêm hành phi và tắc"
+    },
+    {
+      "id": "1009",
+      "cat_id": 1,
+      "name": "Bánh tráng me",
+      "price": 10000,
+      "image": "../asset/image/banh-trang-me.jpg",
+      "description": "Bánh tráng dẻo cuộn me chua ngọt, ăn vặt cực cuốn"
+    },
+    {
+      "id": "1010",
+      "cat_id": 1,
+      "name": "Bánh tráng phơi sương",
+      "price": 15000,
+      "image": "../asset/image/banh-trang-phoi-suong.jpg",
+      "description": "Bánh tráng phơi sương mềm dẻo ăn kèm muối tôm và rau răm"
+    },
+    {
+      "id": "1011",
+      "cat_id": 1,
+      "name": "Bánh tráng dẻo tôm cay",
+      "price": 14000,
+      "image": "../asset/image/banh-trang-deo-tom-cay.jpg",
+      "description": "Bánh tráng dẻo mềm với muối tôm cay xé lưỡi, vị mặn ngọt hài hòa"
+    },
+    {
+      "id": "1012",
+      "cat_id": 1,
+      "name": "Bánh tráng bơ",
+      "price": 12000,
+      "image": "../asset/image/banh-trang-bo.jpg",
+      "description": "Bánh tráng giòn quét bơ thơm béo, nướng vàng đều"
+    },
+    {
+      "id": "1013",
+      "cat_id": 1,
+      "name": "Bánh tráng sa tế",
+      "price": 12000,
+      "image": "../asset/image/banh-trang-sa-te.jpg",
+      "description": "Bánh tráng giòn quét sa tế cay nồng, thơm mùi tỏi ớt"
+    },
+    {
+      "id": "1014",
+      "cat_id": 1,
+      "name": "Bánh tráng tỏi phi",
+      "price": 13000,
+      "image": "../asset/image/banh-trang-toi-phi.jpg",
+      "description": "Bánh tráng giòn rắc tỏi phi vàng thơm, vị mặn nhẹ dễ ăn"
+    },
+    {
+      "id": "1015",
+      "cat_id": 1,
+      "name": "Bánh tráng hành phi",
+      "price": 12000,
+      "image": "../asset/image/banh-trang-hanh-phi.jpg",
+      "description": "Bánh tráng nướng giòn với hành phi thơm lừng và chút muối ớt"
+    },
+    {
+      "id": "1016",
+      "cat_id": 1,
+      "name": "Bánh tráng rong biển",
+      "price": 15000,
+      "image": "../asset/image/banh-trang-rong-bien.jpg",
+      "description": "Bánh tráng giòn rắc rong biển, mè rang và chút đường vừa miệng"
+    },
+    {
+      "id": "1017",
+      "cat_id": 1,
+      "name": "Bánh tráng chấm Tây Ninh",
+      "price": 20000,
+      "image": "../asset/image/banh-trang-cham-tay-ninh.jpg",
+      "description": "Bánh tráng phơi sương kèm muối nhuyễn, hành phi và tép sấy"
+    },
+    {
+      "id": "1018",
+      "cat_id": 1,
+      "name": "Bánh tráng mè đen nướng",
+      "price": 10000,
+      "image": "../asset/image/banh-trang-me-den-nuong.jpg",
+      "description": "Bánh tráng nướng giòn thơm mùi mè đen, ăn nhẹ không ngán"
+    },
+    {
+      "id": "1019",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng bò khô",
+      "price": 25000,
+      "image": "../asset/image/banh-trang-nuong-bo-kho.jpg",
+      "description": "Bánh tráng nướng giòn phủ bò khô xé sợi, trứng cút và sốt cay"
+    },
+    {
+      "id": "1020",
+      "cat_id": 1,
+      "name": "Bánh tráng nướng hải sản",
+      "price": 28000,
+      "image": "../asset/image/banh-trang-nuong-hai-san.jpg",
+      "description": "Bánh tráng nướng với tôm, mực, trứng và rau củ, sốt đậm đà"
+    },
+    {
+      "id": "2001",
+      "cat_id": 2,
+      "name": "Bắp xào tép hành",
+      "price": 15000,
+      "image": "../asset/image/bap-xao-tep-hanh.jpg",
+      "description": "Bắp nếp xào tép khô và hành lá, mặn ngọt đậm đà"
+    },
+    {
+      "id": "2002",
+      "cat_id": 2,
+      "name": "Bắp xào phô mai",
+      "price": 20000,
+      "image": "../asset/image/bap-xao-pho-mai.jpg",
+      "description": "Bắp xào bơ phủ phô mai tan chảy, béo thơm hấp dẫn"
+    },
+    {
+      "id": "2003",
+      "cat_id": 2,
+      "name": "Bắp xào sa tế",
+      "price": 16000,
+      "image": "../asset/image/bap-xao-sa-te.jpg",
+      "description": "Bắp nếp xào sa tế cay nhẹ, thơm mùi tỏi ớt"
+    },
+    {
+      "id": "2004",
+      "cat_id": 2,
+      "name": "Bắp xào trứng muối",
+      "price": 22000,
+      "image": "../asset/image/bap-xao-trung-muoi.jpg",
+      "description": "Bắp xào cùng trứng muối bùi béo, rắc hành phi giòn"
+    },
+    {
+      "id": "2005",
+      "cat_id": 2,
+      "name": "Bắp xào ruốc",
+      "price": 18000,
+      "image": "../asset/image/bap-xao-ruoc.jpg",
+      "description": "Bắp nếp xào ruốc heo bông mịn, vị mặn ngọt dễ ăn"
+    },
+    {
+      "id": "2006",
+      "cat_id": 2,
+      "name": "Bắp xào bò khô",
+      "price": 24000,
+      "image": "../asset/image/bap-xao-bo-kho.jpg",
+      "description": "Bắp nếp xào bò khô xé sợi dai ngọt, thêm rau răm"
+    },
+    {
+      "id": "2007",
+      "cat_id": 2,
+      "name": "Bắp xào xúc xích",
+      "price": 20000,
+      "image": "../asset/image/bap-xao-xuc-xich.jpg",
+      "description": "Bắp xào bơ kèm xúc xích cắt lát, hợp khẩu vị trẻ nhỏ"
+    },
+    {
+      "id": "2008",
+      "cat_id": 2,
+      "name": "Bắp xào tôm khô",
+      "price": 22000,
+      "image": "../asset/image/bap-xao-tom-kho.jpg",
+      "description": "Bắp nếp xào tôm khô thơm lừng, vị ngọt tự nhiên"
+    },
+    {
+      "id": "2009",
+      "cat_id": 2,
+      "name": "Bắp nướng mỡ hành",
+      "price": 15000,
+      "image": "../asset/image/bap-nuong-mo-hanh.jpg",
+      "description": "Bắp nướng than hoa quét mỡ hành béo thơm, rắc đậu phộng"
+    },
+    {
+      "id": "2010",
+      "cat_id": 2,
+      "name": "Bắp nướng phô mai",
+      "price": 20000,
+      "image": "../asset/image/bap-nuong-pho-mai.jpg",
+      "description": "Bắp nướng than phủ phô mai và bơ, thơm nức mũi"
+    },
+    {
+      "id": "2011",
+      "cat_id": 2,
+      "name": "Bắp luộc nếp",
+      "price": 10000,
+      "image": "../asset/image/bap-luoc-nep.jpg",
+      "description": "Bắp nếp luộc nóng hổi, hạt dẻo ngọt tự nhiên"
+    },
+    {
+      "id": "2012",
+      "cat_id": 2,
+      "name": "Bắp luộc lá dứa",
+      "price": 12000,
+      "image": "../asset/image/bap-luoc-la-dua.jpg",
+      "description": "Bắp luộc cùng lá dứa thơm mát, hạt mềm dẻo"
+    },
+    {
+      "id": "2013",
+      "cat_id": 2,
+      "name": "Bắp rang bơ",
+      "price": 15000,
+      "image": "../asset/image/bap-rang-bo.jpg",
+      "description": "Bắp rang giòn thơm bơ, ăn kèm xem phim cực hợp"
+    },
+    {
+      "id": "2014",
+      "cat_id": 2,
+      "name": "Bắp rang caramel",
+      "price": 18000,
+      "image": "../asset/image/bap-rang-caramel.jpg",
+      "description": "Bắp rang phủ lớp caramel giòn ngọt, thơm vị bơ"
+    },
+    {
+      "id": "2015",
+      "cat_id": 2,
+      "name": "Bắp chiên giòn",
+      "price": 20000,
+      "image": "../asset/image/bap-chien-gion.jpg",
+      "description": "Bắp nếp tẩm bột chiên vàng giòn, chấm tương ớt"
+    },
+    {
+      "id": "2016",
+      "cat_id": 2,
+      "name": "Bắp nướng muối ớt",
+      "price": 14000,
+      "image": "../asset/image/bap-nuong-muoi-ot.jpg",
+      "description": "Bắp nướng quét muối ớt cay mặn, ăn là ghiền"
+    },
+    {
+      "id": "2017",
+      "cat_id": 2,
+      "name": "Bắp xào thập cẩm",
+      "price": 25000,
+      "image": "../asset/image/bap-xao-thap-cam.jpg",
+      "description": "Bắp xào tép, trứng cút, xúc xích và hành phi đầy đặn"
+    },
+    {
+      "id": "2018",
+      "cat_id": 2,
+      "name": "Bắp trộn bơ sữa",
+      "price": 16000,
+      "image": "../asset/image/bap-tron-bo-sua.jpg",
+      "description": "Bắp trộn bơ và sữa đặc, béo ngọt thơm dịu"
+    },
+    {
+      "id": "2020",
+      "cat_id": 2,
+      "name": "Ngô non xào tỏi",
+      "price": 18000,
+      "image": "../asset/image/ngo-non-xao-toi.jpg",
+      "description": "Ngô non giòn ngọt xào tỏi phi thơm, vị thanh nhẹ"
+    },
+    {
+      "id": "3001",
+      "cat_id": 3,
+      "name": "Khoai tây chiên truyền thống",
+      "price": 20000,
+      "image": "../asset/image/khoai-tay-chien-truyen-thong.jpg",
+      "description": "Khoai tây cắt sợi chiên vàng giòn, rắc muối và chấm tương cà"
+    },
+    {
+      "id": "3002",
+      "cat_id": 3,
+      "name": "Khoai tây chiên phô mai lắc",
+      "price": 25000,
+      "image": "../asset/image/khoai-tay-chien-pho-mai-lac.jpg",
+      "description": "Khoai tây chiên lắc bột phô mai thơm béo"
+    },
+    {
+      "id": "3003",
+      "cat_id": 3,
+      "name": "Khoai tây xoắn",
+      "price": 22000,
+      "image": "../asset/image/khoai-tay-xoan.jpg",
+      "description": "Khoai tây cắt xoắn ốc chiên giòn, xiên que dễ cầm"
+    },
+    {
+      "id": "3004",
+      "cat_id": 3,
+      "name": "Khoai tây múi cau",
+      "price": 24000,
+      "image": "../asset/image/khoai-tay-mui-cau.jpg",
+      "description": "Khoai tây cắt múi cau chiên giòn ngoài, mềm bên trong"
+    },
+    {
+      "id": "3005",
+      "cat_id": 3,
+      "name": "Khoai tây chiên cay Hàn",
+      "price": 26000,
+      "image": "../asset/image/khoai-tay-chien-cay-han.jpg",
+      "description": "Khoai tây chiên lắc bột ớt Hàn Quốc cay thơm"
+    },
+    {
+      "id": "3006",
+      "cat_id": 3,
+      "name": "Khoai tây chiên trứng muối",
+      "price": 28000,
+      "image": "../asset/image/khoai-tay-chien-trung-muoi.jpg",
+      "description": "Khoai tây chiên phủ sốt trứng muối béo bùi"
+    },
+    {
+      "id": "3007",
+      "cat_id": 3,
+      "name": "Khoai tây viên",
+      "price": 22000,
+      "image": "../asset/image/khoai-tay-vien.jpg",
+      "description": "Khoai tây nghiền vo viên chiên giòn, nhân phô mai"
+    },
+    {
+      "id": "3008",
+      "cat_id": 3,
+      "name": "Khoai tây chiên rong biển",
+      "price": 24000,
+      "image": "../asset/image/khoai-tay-chien-rong-bien.jpg",
+      "description": "Khoai tây chiên lắc bột rong biển thơm đặc trưng"
+    },
+    {
+      "id": "3009",
+      "cat_id": 3,
+      "name": "Bánh khoai tây hành",
+      "price": 20000,
+      "image": "../asset/image/banh-khoai-tay-hanh.jpg",
+      "description": "Bánh khoai tây trộn hành lá chiên vàng, mềm bùi"
+    },
+    {
+      "id": "3010",
+      "cat_id": 3,
+      "name": "Khoai lang chiên",
+      "price": 15000,
+      "image": "../asset/image/khoai-lang-chien.jpg",
+      "description": "Khoai lang cắt thanh chiên giòn, vị ngọt tự nhiên"
+    },
+    {
+      "id": "3011",
+      "cat_id": 3,
+      "name": "Khoai lang kén",
+      "price": 18000,
+      "image": "../asset/image/khoai-lang-ken.jpg",
+      "description": "Khoai lang bọc bột chiên giòn hình kén, nhân dẻo ngọt"
+    },
+    {
+      "id": "3012",
+      "cat_id": 3,
+      "name": "Khoai lang tím chiên",
+      "price": 18000,
+      "image": "../asset/image/khoai-lang-tim-chien.jpg",
+      "description": "Khoai lang tím chiên giòn, màu đẹp và vị ngọt dịu"
+    },
+    {
+      "id": "3013",
+      "cat_id": 3,
+      "name": "Khoai lang chiên mè",
+      "price": 16000,
+      "image": "../asset/image/khoai-lang-chien-me.jpg",
+      "description": "Khoai lang chiên giòn rắc mè rang thơm bùi"
+    },
+    {
+      "id": "3014",
+      "cat_id": 3,
+      "name": "Khoai lang chiên phô mai",
+      "price": 22000,
+      "image": "../asset/image/khoai-lang-chien-pho-mai.jpg",
+      "description": "Khoai lang chiên phủ phô mai kéo sợi béo ngọt"
+    },
+    {
+      "id": "3015",
+      "cat_id": 3,
+      "name": "Khoai môn chiên",
+      "price": 18000,
+      "image": "../asset/image/khoai-mon-chien.jpg",
+      "description": "Khoai môn thái lát chiên giòn, bùi thơm đặc trưng"
+    },
+    {
+      "id": "3016",
+      "cat_id": 3,
+      "name": "Khoai mỡ chiên",
+      "price": 16000,
+      "image": "../asset/image/khoai-mo-chien.jpg",
+      "description": "Khoai mỡ chiên giòn nhẹ, vị bùi béo ăn là mê"
+    },
+    {
+      "id": "3017",
+      "cat_id": 3,
+      "name": "Khoai mì chiên",
+      "price": 15000,
+      "image": "../asset/image/khoai-mi-chien.jpg",
+      "description": "Khoai mì cắt thanh chiên vàng, chấm muối ớt"
+    },
+    {
+      "id": "3018",
+      "cat_id": 3,
+      "name": "Sắn dây chiên giòn",
+      "price": 14000,
+      "image": "../asset/image/san-day-chien-gion.jpg",
+      "description": "Sắn dây tẩm bột chiên giòn, vị ngọt mát lạ miệng"
+    },
+    {
+      "id": "3019",
+      "cat_id": 3,
+      "name": "Khoai tây lốc xoáy",
+      "price": 25000,
+      "image": "../asset/image/khoai-tay-loc-xoay.jpg",
+      "description": "Khoai tây lốc xoáy chiên giòn rắc bột phô mai"
+    },
+    {
+      "id": "4001",
+      "cat_id": 4,
+      "name": "Kem dừa Thái Lan",
+      "price": 15000,
+      "image": "../asset/image/kem-dua-thai-lan.jpg",
+      "description": "Kem dừa mịn mát lạnh kèm dừa non và đậu phộng rang"
+    },
+    {
+      "id": "4002",
+      "cat_id": 4,
+      "name": "Kem xôi dừa",
+      "price": 20000,
+      "image": "../asset/image/kem-xoi-dua.jpg",
+      "description": "Kem dừa ăn cùng xôi nếp dẻo và nước cốt dừa"
+    },
+    {
+      "id": "4003",
+      "cat_id": 4,
+      "name": "Kem bơ",
+      "price": 18000,
+      "image": "../asset/image/kem-bo.jpg",
+      "description": "Kem bơ sánh mịn béo thơm, vị tự nhiên"
+    },
+    {
+      "id": "4004",
+      "cat_id": 4,
+      "name": "Kem chuối nướng",
+      "price": 22000,
+      "image": "../asset/image/kem-chuoi-nuong.jpg",
+      "description": "Chuối nướng nóng ăn cùng kem lạnh, thêm nước cốt dừa"
+    },
+    {
+      "id": "4005",
+      "cat_id": 4,
+      "name": "Kem flan",
+      "price": 18000,
+      "image": "../asset/image/kem-flan.jpg",
+      "description": "Kem lạnh kèm bánh flan mềm mịn và caramel đắng nhẹ"
+    },
+    {
+      "id": "4006",
+      "cat_id": 4,
+      "name": "Kem cuộn Thái",
+      "price": 25000,
+      "image": "../asset/image/kem-cuon-thai.jpg",
+      "description": "Kem cuộn kiểu Thái làm tại chỗ, nhiều topping tươi"
+    },
+    {
+      "id": "4007",
+      "cat_id": 4,
+      "name": "Kem ly vani",
+      "price": 12000,
+      "image": "../asset/image/kem-ly-vani.jpg",
+      "description": "Kem vani truyền thống mịn mượt, thơm mùi vani"
+    },
+    {
+      "id": "4008",
+      "cat_id": 4,
+      "name": "Kem socola",
+      "price": 12000,
+      "image": "../asset/image/kem-socola.jpg",
+      "description": "Kem socola đậm đà, béo ngọt hài hòa"
+    },
+    {
+      "id": "4009",
+      "cat_id": 4,
+      "name": "Kem dâu",
+      "price": 12000,
+      "image": "../asset/image/kem-dau.jpg",
+      "description": "Kem dâu hồng thơm ngọt, vị trái cây tươi"
+    },
+    {
+      "id": "4010",
+      "cat_id": 4,
+      "name": "Kem matcha",
+      "price": 15000,
+      "image": "../asset/image/kem-matcha.jpg",
+      "description": "Kem trà xanh matcha thơm dịu, hơi đắng nhẹ"
+    },
+    {
+      "id": "4011",
+      "cat_id": 4,
+      "name": "Chè khúc bạch",
+      "price": 22000,
+      "image": "../asset/image/che-khuc-bach.jpg",
+      "description": "Khúc bạch mềm mịn kèm vải, nhãn và hạnh nhân lát"
+    },
+    {
+      "id": "4012",
+      "cat_id": 4,
+      "name": "Chè thái",
+      "price": 20000,
+      "image": "../asset/image/che-thai.jpg",
+      "description": "Chè thái nhiều trái cây, thạch và nước cốt dừa"
+    },
+    {
+      "id": "4013",
+      "cat_id": 4,
+      "name": "Chè bưởi",
+      "price": 18000,
+      "image": "../asset/image/che-buoi.jpg",
+      "description": "Chè bưởi giòn sật, đậu xanh và nước cốt dừa béo"
+    },
+    {
+      "id": "4014",
+      "cat_id": 4,
+      "name": "Chè dưỡng nhan",
+      "price": 25000,
+      "image": "../asset/image/che-duong-nhan.jpg",
+      "description": "Chè tuyết yến, đậu đỏ, nhãn nhục và táo đỏ bổ dưỡng"
+    },
+    {
+      "id": "4015",
+      "cat_id": 4,
+      "name": "Sữa chua dẻo",
+      "price": 15000,
+      "image": "../asset/image/sua-chua-deo.jpg",
+      "description": "Sữa chua dẻo mịn chua ngọt, thêm trái cây tươi"
+    },
+    {
+      "id": "4016",
+      "cat_id": 4,
+      "name": "Sữa chua nếp cẩm",
+      "price": 15000,
+      "image": "../asset/image/sua-chua-nep-cam.jpg",
+      "description": "Sữa chua ăn cùng nếp cẩm dẻo thơm"
+    },
+    {
+      "id": "4017",
+      "cat_id": 4,
+      "name": "Bánh flan caramel",
+      "price": 12000,
+      "image": "../asset/image/banh-flan-caramel.jpg",
+      "description": "Bánh flan trứng sữa mềm mịn, rưới caramel đắng ngọt"
+    },
+    {
+      "id": "4018",
+      "cat_id": 4,
+      "name": "Rau câu dừa",
+      "price": 10000,
+      "image": "../asset/image/rau-cau-dua.jpg",
+      "description": "Rau câu trong thân dừa mát lạnh, giòn dai vui miệng"
+    },
+    {
+      "id": "4019",
+      "cat_id": 4,
+      "name": "Panna cotta",
+      "price": 22000,
+      "image": "../asset/image/panna-cotta.jpg",
+      "description": "Panna cotta kiểu Ý mềm tan, sốt dâu chua ngọt"
+    },
+    {
+      "id": "4020",
+      "cat_id": 4,
+      "name": "Pudding trứng",
+      "price": 14000,
+      "image": "../asset/image/pudding-trung.jpg",
+      "description": "Pudding trứng sữa mềm mượt, thơm mùi vani"
+    },
+    {
+      "id": "5001",
+      "cat_id": 5,
+      "name": "Trà đào cam sả",
+      "price": 25000,
+      "image": "../asset/image/tra-dao-cam-sa.jpg",
+      "description": "Trà đào thơm mát với cam tươi, sả và miếng đào giòn"
+    },
+    {
+      "id": "5002",
+      "cat_id": 5,
+      "name": "Trà tắc",
+      "price": 12000,
+      "image": "../asset/image/tra-tac.jpg",
+      "description": "Trà đen pha tắc chua thanh, giải nhiệt ngày nóng"
+    },
+    {
+      "id": "5003",
+      "cat_id": 5,
+      "name": "Trà vải",
+      "price": 25000,
+      "image": "../asset/image/tra-vai.jpg",
+      "description": "Trà thơm hương vải ngọt dịu, kèm trái vải nguyên"
+    },
+    {
+      "id": "5004",
+      "cat_id": 5,
+      "name": "Trà chanh",
+      "price": 15000,
+      "image": "../asset/image/tra-chanh.jpg",
+      "description": "Trà chanh tươi chua ngọt, uống lạnh sảng khoái"
+    },
+    {
+      "id": "5005",
+      "cat_id": 5,
+      "name": "Trà gừng mật ong",
+      "price": 20000,
+      "image": "../asset/image/tra-gung-mat-ong.jpg",
+      "description": "Trà gừng ấm nóng với mật ong, tốt cho cổ họng"
+    },
+    {
+      "id": "5006",
+      "cat_id": 5,
+      "name": "Trà atiso",
+      "price": 18000,
+      "image": "../asset/image/tra-atiso.jpg",
+      "description": "Trà atiso thanh nhiệt, vị ngọt hậu dễ uống"
+    },
+    {
+      "id": "5007",
+      "cat_id": 5,
+      "name": "Trà hoa cúc",
+      "price": 20000,
+      "image": "../asset/image/tra-hoa-cuc.jpg",
+      "description": "Trà hoa cúc thanh mát, thơm dịu và thư giãn"
+    },
+    {
+      "id": "5008",
+      "cat_id": 5,
+      "name": "Trà xanh đá",
+      "price": 10000,
+      "image": "../asset/image/tra-xanh-da.jpg",
+      "description": "Trà xanh ướp lạnh, vị chát nhẹ giải khát"
+    },
+    {
+      "id": "5009",
+      "cat_id": 5,
+      "name": "Trà sữa trân châu đường đen",
+      "price": 30000,
+      "image": "../asset/image/tra-sua-tran-chau-duong-den.jpg",
+      "description": "Trà sữa béo thơm kèm trân châu đường đen dẻo dai"
+    },
+    {
+      "id": "5010",
+      "cat_id": 5,
+      "name": "Sữa tươi trân châu đường đen",
+      "price": 32000,
+      "image": "../asset/image/sua-tuoi-tran-chau-duong-den.jpg",
+      "description": "Sữa tươi nguyên chất với trân châu đường đen nấu mềm"
+    },
+    {
+      "id": "5011",
+      "cat_id": 5,
+      "name": "Cà phê sữa đá",
+      "price": 18000,
+      "image": "../asset/image/ca-phe-sua-da.jpg",
+      "description": "Cà phê phin đậm đà pha sữa đặc, uống lạnh"
+    },
+    {
+      "id": "5012",
+      "cat_id": 5,
+      "name": "Cà phê đen đá",
+      "price": 15000,
+      "image": "../asset/image/ca-phe-den-da.jpg",
+      "description": "Cà phê phin nguyên chất đậm vị, thơm nồng"
+    },
+    {
+      "id": "5013",
+      "cat_id": 5,
+      "name": "Bạc xỉu",
+      "price": 20000,
+      "image": "../asset/image/bac-xiu.jpg",
+      "description": "Nhiều sữa ít cà phê, ngọt béo dễ uống"
+    },
+    {
+      "id": "5014",
+      "cat_id": 5,
+      "name": "Cà phê muối",
+      "price": 25000,
+      "image": "../asset/image/ca-phe-muoi.jpg",
+      "description": "Cà phê phủ lớp kem muối béo mặn đặc trưng"
+    },
+    {
+      "id": "5015",
+      "cat_id": 5,
+      "name": "Nước dừa tươi",
+      "price": 20000,
+      "image": "../asset/image/nuoc-dua-tuoi.jpg",
+      "description": "Nước dừa xiêm tươi mát ngọt thanh, kèm cơm dừa"
+    },
+    {
+      "id": "5016",
+      "cat_id": 5,
+      "name": "Nước sâm",
+      "price": 12000,
+      "image": "../asset/image/nuoc-sam.jpg",
+      "description": "Nước sâm mát thanh nhiệt nấu từ thảo mộc truyền thống"
+    },
+    {
+      "id": "5017",
+      "cat_id": 5,
+      "name": "Nước rau má",
+      "price": 15000,
+      "image": "../asset/image/nuoc-rau-ma.jpg",
+      "description": "Rau má xay tươi mát lạnh, vị thanh giải nhiệt"
+    },
+    {
+      "id": "5018",
+      "cat_id": 5,
+      "name": "Sữa đậu nành",
+      "price": 10000,
+      "image": "../asset/image/sua-dau-nanh.jpg",
+      "description": "Sữa đậu nành nấu tươi thơm béo, ít ngọt"
+    },
+    {
+      "id": "5019",
+      "cat_id": 5,
+      "name": "Nước mơ ngâm",
+      "price": 18000,
+      "image": "../asset/image/nuoc-mo-ngam.jpg",
+      "description": "Nước mơ ngâm chua ngọt, uống lạnh sảng khoái"
+    },
+    {
+      "id": "5020",
+      "cat_id": 5,
+      "name": "Sương sáo hạt é",
+      "price": 15000,
+      "image": "../asset/image/suong-sao-hat-e.jpg",
+      "description": "Sương sáo mát dẻo với hạt é và đường thốt nốt"
+    },
+    {
+      "id": "8001",
+      "cat_id": 6,
+      "name": "Nước ép cam tươi",
+      "price": 25000,
+      "image": "../asset/image/nuoc-ep-cam-tuoi.jpg",
+      "description": "Cam vắt nguyên chất, giàu vitamin C, không đường"
+    },
+    {
+      "id": "8002",
+      "cat_id": 6,
+      "name": "Nước ép dưa hấu",
+      "price": 20000,
+      "image": "../asset/image/nuoc-ep-dua-hau.jpg",
+      "description": "Dưa hấu ép mát lạnh, ngọt thanh giải nhiệt"
+    },
+    {
+      "id": "8003",
+      "cat_id": 6,
+      "name": "Nước ép táo",
+      "price": 25000,
+      "image": "../asset/image/nuoc-ep-tao.jpg",
+      "description": "Táo xanh ép tươi, vị chua ngọt hài hòa"
+    },
+    {
+      "id": "8004",
+      "cat_id": 6,
+      "name": "Nước ép cà rốt",
+      "price": 22000,
+      "image": "../asset/image/nuoc-ep-ca-rot.jpg",
+      "description": "Cà rốt ép tươi giàu beta-carotene, ngọt dịu"
+    },
+    {
+      "id": "8005",
+      "cat_id": 6,
+      "name": "Nước ép ổi",
+      "price": 22000,
+      "image": "../asset/image/nuoc-ep-oi.jpg",
+      "description": "Ổi ép thơm nồng, giàu vitamin, vị chua ngọt"
+    },
+    {
+      "id": "8006",
+      "cat_id": 6,
+      "name": "Nước ép dứa",
+      "price": 22000,
+      "image": "../asset/image/nuoc-ep-dua.jpg",
+      "description": "Dứa tươi ép mát, vị chua ngọt đậm đà"
+    },
+    {
+      "id": "8007",
+      "cat_id": 6,
+      "name": "Nước ép thơm cần tây",
+      "price": 28000,
+      "image": "../asset/image/nuoc-ep-thom-can-tay.jpg",
+      "description": "Thơm kết hợp cần tây ép lạnh, thanh mát tốt cho sức khỏe"
+    },
+    {
+      "id": "8008",
+      "cat_id": 6,
+      "name": "Nước ép bưởi",
+      "price": 25000,
+      "image": "../asset/image/nuoc-ep-buoi.jpg",
+      "description": "Bưởi ép tươi vị đắng nhẹ, thanh mát"
+    },
+    {
+      "id": "8009",
+      "cat_id": 6,
+      "name": "Nước ép cà chua",
+      "price": 22000,
+      "image": "../asset/image/nuoc-ep-ca-chua.jpg",
+      "description": "Cà chua ép tươi thêm chút muối, giàu lycopene"
+    },
+    {
+      "id": "8010",
+      "cat_id": 6,
+      "name": "Nước ép lựu",
+      "price": 32000,
+      "image": "../asset/image/nuoc-ep-luu.jpg",
+      "description": "Lựu đỏ ép nguyên chất, chua ngọt đậm vị"
+    },
+    {
+      "id": "8011",
+      "cat_id": 6,
+      "name": "Sinh tố bơ",
+      "price": 30000,
+      "image": "../asset/image/sinh-to-bo.jpg",
+      "description": "Bơ sáp xay mịn cùng sữa đặc, béo thơm"
+    },
+    {
+      "id": "8012",
+      "cat_id": 6,
+      "name": "Sinh tố xoài",
+      "price": 28000,
+      "image": "../asset/image/sinh-to-xoai.jpg",
+      "description": "Xoài chín xay cùng đá, ngọt thơm mát lạnh"
+    },
+    {
+      "id": "8013",
+      "cat_id": 6,
+      "name": "Sinh tố dâu",
+      "price": 30000,
+      "image": "../asset/image/sinh-to-dau.jpg",
+      "description": "Dâu tươi xay cùng sữa chua, chua ngọt dễ uống"
+    },
+    {
+      "id": "8014",
+      "cat_id": 6,
+      "name": "Sinh tố chuối",
+      "price": 25000,
+      "image": "../asset/image/sinh-to-chuoi.jpg",
+      "description": "Chuối chín xay cùng sữa, thơm ngọt bổ dưỡng"
+    },
+    {
+      "id": "9001",
+      "cat_id": 7,
+      "name": "Soda chanh",
+      "price": 18000,
+      "image": "../asset/image/soda-chanh.jpg",
+      "description": "Soda sủi bọt với chanh tươi, chua nhẹ sảng khoái"
+    },
+    {
+      "id": "9002",
+      "cat_id": 7,
+      "name": "Soda dâu",
+      "price": 22000,
+      "image": "../asset/image/soda-dau.jpg",
+      "description": "Soda sirô dâu hồng ngọt, kèm lát dâu tươi"
+    },
+    {
+      "id": "9003",
+      "cat_id": 7,
+      "name": "Soda việt quất",
+      "price": 24000,
+      "image": "../asset/image/soda-viet-quat.jpg",
+      "description": "Soda việt quất tím chua ngọt, thơm mát"
+    },
+    {
+      "id": "9005",
+      "cat_id": 7,
+      "name": "Soda bạc hà",
+      "price": 22000,
+      "image": "../asset/image/soda-bac-ha.jpg",
+      "description": "Soda bạc hà the mát, hương chanh nhẹ"
+    },
+    {
+      "id": "9006",
+      "cat_id": 7,
+      "name": "Soda đào",
+      "price": 22000,
+      "image": "../asset/image/soda-dao.jpg",
+      "description": "Soda sirô đào thơm ngọt, thêm miếng đào"
+    },
+    {
+      "id": "9007",
+      "cat_id": 7,
+      "name": "Soda chanh dây",
+      "price": 24000,
+      "image": "../asset/image/soda-chanh-day.jpg",
+      "description": "Soda chanh dây chua ngọt, thơm nồng"
+    },
+    {
+      "id": "9008",
+      "cat_id": 7,
+      "name": "Soda kiwi",
+      "price": 24000,
+      "image": "../asset/image/soda-kiwi.jpg",
+      "description": "Soda kiwi xanh mát, vị chua thanh nhẹ"
+    },
+    {
+      "id": "9010",
+      "cat_id": 7,
+      "name": "Soda vải",
+      "price": 22000,
+      "image": "../asset/image/soda-vai.jpg",
+      "description": "Soda hương vải ngọt dịu, kèm trái vải"
+    },
+    {
+      "id": "9013",
+      "cat_id": 7,
+      "name": "Soda xí muội",
+      "price": 20000,
+      "image": "../asset/image/soda-xi-muoi.jpg",
+      "description": "Soda xí muội mặn chua đặc trưng, giải khát tốt"
+    },
+    {
+      "id": "9014",
+      "cat_id": 7,
+      "name": "Soda sữa chua",
+      "price": 24000,
+      "image": "../asset/image/soda-sua-chua.jpg",
+      "description": "Soda kết hợp sữa chua béo nhẹ, lạ miệng"
+    },
+    {
+      "id": "9017",
+      "cat_id": 7,
+      "name": "Coca-Cola",
+      "price": 15000,
+      "image": "../asset/image/coca-cola.jpg",
+      "description": "Nước ngọt có ga Coca-Cola ướp lạnh"
+    },
+    {
+      "id": "9018",
+      "cat_id": 7,
+      "name": "Pepsi",
+      "price": 15000,
+      "image": "../asset/image/pepsi.jpg",
+      "description": "Nước ngọt có ga Pepsi ướp lạnh"
+    },
+    {
+      "id": "9019",
+      "cat_id": 7,
+      "name": "7Up",
+      "price": 15000,
+      "image": "../asset/image/7up.jpg",
+      "description": "Nước ngọt có ga vị chanh 7Up ướp lạnh"
+    },
+    {
+      "id": "9020",
+      "cat_id": 7,
+      "name": "Fanta cam",
+      "price": 15000,
+      "image": "../asset/image/fanta-cam.jpg",
+      "description": "Nước ngọt có ga hương cam Fanta ướp lạnh"
+    }
+  ],
+  "product_variants": [
+    {
+      "id": "1",
+      "prod_id": 101,
+      "variant_name": "Phần nhỏ",
+      "price": 15000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "2",
+      "prod_id": 101,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "3",
+      "prod_id": 201,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "4",
+      "prod_id": 201,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "5",
+      "prod_id": 301,
+      "variant_name": "Phần thường",
+      "price": 25000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "6",
+      "prod_id": 301,
+      "variant_name": "Phần lớn",
+      "price": 35000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "7",
+      "prod_id": 401,
+      "variant_name": "Ly 100ml",
+      "price": 15000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "8",
+      "prod_id": 401,
+      "variant_name": "Ly 200ml",
+      "price": 23000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "9",
+      "prod_id": 501,
+      "variant_name": "Ly 300ml",
+      "price": 12000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "10",
+      "prod_id": 501,
+      "variant_name": "Ly 500ml",
+      "price": 20000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "11",
+      "prod_id": 1001,
+      "variant_name": "Phần nhỏ",
+      "price": 15000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "12",
+      "prod_id": 1001,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "13",
+      "prod_id": 1002,
+      "variant_name": "Phần nhỏ",
+      "price": 18000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "14",
+      "prod_id": 1002,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "15",
+      "prod_id": 1003,
+      "variant_name": "Phần nhỏ",
+      "price": 20000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "16",
+      "prod_id": 1003,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "17",
+      "prod_id": 1004,
+      "variant_name": "Phần nhỏ",
+      "price": 22000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "18",
+      "prod_id": 1004,
+      "variant_name": "Phần lớn",
+      "price": 32000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "19",
+      "prod_id": 1005,
+      "variant_name": "Phần nhỏ",
+      "price": 20000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "20",
+      "prod_id": 1005,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "21",
+      "prod_id": 1006,
+      "variant_name": "Phần nhỏ",
+      "price": 18000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "22",
+      "prod_id": 1006,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "23",
+      "prod_id": 1007,
+      "variant_name": "Phần nhỏ",
+      "price": 12000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "24",
+      "prod_id": 1007,
+      "variant_name": "Phần lớn",
+      "price": 22000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "25",
+      "prod_id": 1008,
+      "variant_name": "Phần nhỏ",
+      "price": 10000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "26",
+      "prod_id": 1008,
+      "variant_name": "Phần lớn",
+      "price": 20000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "27",
+      "prod_id": 1009,
+      "variant_name": "Phần nhỏ",
+      "price": 10000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "28",
+      "prod_id": 1009,
+      "variant_name": "Phần lớn",
+      "price": 20000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "29",
+      "prod_id": 1010,
+      "variant_name": "Phần nhỏ",
+      "price": 15000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "30",
+      "prod_id": 1010,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "31",
+      "prod_id": 1011,
+      "variant_name": "Phần nhỏ",
+      "price": 14000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "32",
+      "prod_id": 1011,
+      "variant_name": "Phần lớn",
+      "price": 24000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "33",
+      "prod_id": 1012,
+      "variant_name": "Phần nhỏ",
+      "price": 12000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "34",
+      "prod_id": 1012,
+      "variant_name": "Phần lớn",
+      "price": 22000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "35",
+      "prod_id": 1013,
+      "variant_name": "Phần nhỏ",
+      "price": 12000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "36",
+      "prod_id": 1013,
+      "variant_name": "Phần lớn",
+      "price": 22000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "37",
+      "prod_id": 1014,
+      "variant_name": "Phần nhỏ",
+      "price": 13000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "38",
+      "prod_id": 1014,
+      "variant_name": "Phần lớn",
+      "price": 23000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "39",
+      "prod_id": 1015,
+      "variant_name": "Phần nhỏ",
+      "price": 12000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "40",
+      "prod_id": 1015,
+      "variant_name": "Phần lớn",
+      "price": 22000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "41",
+      "prod_id": 1016,
+      "variant_name": "Phần nhỏ",
+      "price": 15000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "42",
+      "prod_id": 1016,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "43",
+      "prod_id": 1017,
+      "variant_name": "Phần nhỏ",
+      "price": 20000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "44",
+      "prod_id": 1017,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "45",
+      "prod_id": 1018,
+      "variant_name": "Phần nhỏ",
+      "price": 10000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "46",
+      "prod_id": 1018,
+      "variant_name": "Phần lớn",
+      "price": 20000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "47",
+      "prod_id": 1019,
+      "variant_name": "Phần nhỏ",
+      "price": 25000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "48",
+      "prod_id": 1019,
+      "variant_name": "Phần lớn",
+      "price": 35000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "49",
+      "prod_id": 1020,
+      "variant_name": "Phần nhỏ",
+      "price": 28000,
+      "weight": "150g",
+      "quantity": 100
+    },
+    {
+      "id": "50",
+      "prod_id": 1020,
+      "variant_name": "Phần lớn",
+      "price": 38000,
+      "weight": "250g",
+      "quantity": 100
+    },
+    {
+      "id": "51",
+      "prod_id": 2001,
+      "variant_name": "Phần thường",
+      "price": 15000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "52",
+      "prod_id": 2001,
+      "variant_name": "Phần lớn",
+      "price": 23000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "53",
+      "prod_id": 2002,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "54",
+      "prod_id": 2002,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "55",
+      "prod_id": 2003,
+      "variant_name": "Phần thường",
+      "price": 16000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "56",
+      "prod_id": 2003,
+      "variant_name": "Phần lớn",
+      "price": 24000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "57",
+      "prod_id": 2004,
+      "variant_name": "Phần thường",
+      "price": 22000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "58",
+      "prod_id": 2004,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "59",
+      "prod_id": 2005,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "60",
+      "prod_id": 2005,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "61",
+      "prod_id": 2006,
+      "variant_name": "Phần thường",
+      "price": 24000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "62",
+      "prod_id": 2006,
+      "variant_name": "Phần lớn",
+      "price": 32000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "63",
+      "prod_id": 2007,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "64",
+      "prod_id": 2007,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "65",
+      "prod_id": 2008,
+      "variant_name": "Phần thường",
+      "price": 22000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "66",
+      "prod_id": 2008,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "67",
+      "prod_id": 2009,
+      "variant_name": "Phần thường",
+      "price": 15000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "68",
+      "prod_id": 2009,
+      "variant_name": "Phần lớn",
+      "price": 23000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "69",
+      "prod_id": 2010,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "70",
+      "prod_id": 2010,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "71",
+      "prod_id": 2011,
+      "variant_name": "Phần thường",
+      "price": 10000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "72",
+      "prod_id": 2011,
+      "variant_name": "Phần lớn",
+      "price": 18000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "73",
+      "prod_id": 2012,
+      "variant_name": "Phần thường",
+      "price": 12000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "74",
+      "prod_id": 2012,
+      "variant_name": "Phần lớn",
+      "price": 20000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "75",
+      "prod_id": 2013,
+      "variant_name": "Phần thường",
+      "price": 15000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "76",
+      "prod_id": 2013,
+      "variant_name": "Phần lớn",
+      "price": 23000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "77",
+      "prod_id": 2014,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "78",
+      "prod_id": 2014,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "79",
+      "prod_id": 2015,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "80",
+      "prod_id": 2015,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "81",
+      "prod_id": 2016,
+      "variant_name": "Phần thường",
+      "price": 14000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "82",
+      "prod_id": 2016,
+      "variant_name": "Phần lớn",
+      "price": 22000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "83",
+      "prod_id": 2017,
+      "variant_name": "Phần thường",
+      "price": 25000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "84",
+      "prod_id": 2017,
+      "variant_name": "Phần lớn",
+      "price": 33000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "85",
+      "prod_id": 2018,
+      "variant_name": "Phần thường",
+      "price": 16000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "86",
+      "prod_id": 2018,
+      "variant_name": "Phần lớn",
+      "price": 24000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "87",
+      "prod_id": 2020,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "180g",
+      "quantity": 100
+    },
+    {
+      "id": "88",
+      "prod_id": 2020,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "280g",
+      "quantity": 100
+    },
+    {
+      "id": "89",
+      "prod_id": 3001,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "90",
+      "prod_id": 3001,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "91",
+      "prod_id": 3002,
+      "variant_name": "Phần thường",
+      "price": 25000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "92",
+      "prod_id": 3002,
+      "variant_name": "Phần lớn",
+      "price": 35000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "93",
+      "prod_id": 3003,
+      "variant_name": "Phần thường",
+      "price": 22000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "94",
+      "prod_id": 3003,
+      "variant_name": "Phần lớn",
+      "price": 32000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "95",
+      "prod_id": 3004,
+      "variant_name": "Phần thường",
+      "price": 24000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "96",
+      "prod_id": 3004,
+      "variant_name": "Phần lớn",
+      "price": 34000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "97",
+      "prod_id": 3005,
+      "variant_name": "Phần thường",
+      "price": 26000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "98",
+      "prod_id": 3005,
+      "variant_name": "Phần lớn",
+      "price": 36000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "99",
+      "prod_id": 3006,
+      "variant_name": "Phần thường",
+      "price": 28000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "100",
+      "prod_id": 3006,
+      "variant_name": "Phần lớn",
+      "price": 38000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "101",
+      "prod_id": 3007,
+      "variant_name": "Phần thường",
+      "price": 22000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "102",
+      "prod_id": 3007,
+      "variant_name": "Phần lớn",
+      "price": 32000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "103",
+      "prod_id": 3008,
+      "variant_name": "Phần thường",
+      "price": 24000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "104",
+      "prod_id": 3008,
+      "variant_name": "Phần lớn",
+      "price": 34000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "105",
+      "prod_id": 3009,
+      "variant_name": "Phần thường",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "106",
+      "prod_id": 3009,
+      "variant_name": "Phần lớn",
+      "price": 30000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "107",
+      "prod_id": 3010,
+      "variant_name": "Phần thường",
+      "price": 15000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "108",
+      "prod_id": 3010,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "109",
+      "prod_id": 3011,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "110",
+      "prod_id": 3011,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "111",
+      "prod_id": 3012,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "112",
+      "prod_id": 3012,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "113",
+      "prod_id": 3013,
+      "variant_name": "Phần thường",
+      "price": 16000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "114",
+      "prod_id": 3013,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "115",
+      "prod_id": 3014,
+      "variant_name": "Phần thường",
+      "price": 22000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "116",
+      "prod_id": 3014,
+      "variant_name": "Phần lớn",
+      "price": 32000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "117",
+      "prod_id": 3015,
+      "variant_name": "Phần thường",
+      "price": 18000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "118",
+      "prod_id": 3015,
+      "variant_name": "Phần lớn",
+      "price": 28000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "119",
+      "prod_id": 3016,
+      "variant_name": "Phần thường",
+      "price": 16000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "120",
+      "prod_id": 3016,
+      "variant_name": "Phần lớn",
+      "price": 26000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "121",
+      "prod_id": 3017,
+      "variant_name": "Phần thường",
+      "price": 15000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "122",
+      "prod_id": 3017,
+      "variant_name": "Phần lớn",
+      "price": 25000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "123",
+      "prod_id": 3018,
+      "variant_name": "Phần thường",
+      "price": 14000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "124",
+      "prod_id": 3018,
+      "variant_name": "Phần lớn",
+      "price": 24000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "125",
+      "prod_id": 3019,
+      "variant_name": "Phần thường",
+      "price": 25000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "126",
+      "prod_id": 3019,
+      "variant_name": "Phần lớn",
+      "price": 35000,
+      "weight": "300g",
+      "quantity": 100
+    },
+    {
+      "id": "127",
+      "prod_id": 4001,
+      "variant_name": "Ly 100ml",
+      "price": 15000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "128",
+      "prod_id": 4001,
+      "variant_name": "Ly 200ml",
+      "price": 23000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "129",
+      "prod_id": 4002,
+      "variant_name": "Ly 100ml",
+      "price": 20000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "130",
+      "prod_id": 4002,
+      "variant_name": "Ly 200ml",
+      "price": 28000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "131",
+      "prod_id": 4003,
+      "variant_name": "Ly 100ml",
+      "price": 18000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "132",
+      "prod_id": 4003,
+      "variant_name": "Ly 200ml",
+      "price": 26000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "133",
+      "prod_id": 4004,
+      "variant_name": "Ly 100ml",
+      "price": 22000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "134",
+      "prod_id": 4004,
+      "variant_name": "Ly 200ml",
+      "price": 30000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "135",
+      "prod_id": 4005,
+      "variant_name": "Ly 100ml",
+      "price": 18000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "136",
+      "prod_id": 4005,
+      "variant_name": "Ly 200ml",
+      "price": 26000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "137",
+      "prod_id": 4006,
+      "variant_name": "Ly 100ml",
+      "price": 25000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "138",
+      "prod_id": 4006,
+      "variant_name": "Ly 200ml",
+      "price": 33000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "139",
+      "prod_id": 4007,
+      "variant_name": "Ly 100ml",
+      "price": 12000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "140",
+      "prod_id": 4007,
+      "variant_name": "Ly 200ml",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "141",
+      "prod_id": 4008,
+      "variant_name": "Ly 100ml",
+      "price": 12000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "142",
+      "prod_id": 4008,
+      "variant_name": "Ly 200ml",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "143",
+      "prod_id": 4009,
+      "variant_name": "Ly 100ml",
+      "price": 12000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "144",
+      "prod_id": 4009,
+      "variant_name": "Ly 200ml",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "145",
+      "prod_id": 4010,
+      "variant_name": "Ly 100ml",
+      "price": 15000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "146",
+      "prod_id": 4010,
+      "variant_name": "Ly 200ml",
+      "price": 23000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "147",
+      "prod_id": 4011,
+      "variant_name": "Ly 100ml",
+      "price": 22000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "148",
+      "prod_id": 4011,
+      "variant_name": "Ly 200ml",
+      "price": 30000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "149",
+      "prod_id": 4012,
+      "variant_name": "Ly 100ml",
+      "price": 20000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "150",
+      "prod_id": 4012,
+      "variant_name": "Ly 200ml",
+      "price": 28000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "151",
+      "prod_id": 4013,
+      "variant_name": "Ly 100ml",
+      "price": 18000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "152",
+      "prod_id": 4013,
+      "variant_name": "Ly 200ml",
+      "price": 26000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "153",
+      "prod_id": 4014,
+      "variant_name": "Ly 100ml",
+      "price": 25000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "154",
+      "prod_id": 4014,
+      "variant_name": "Ly 200ml",
+      "price": 33000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "155",
+      "prod_id": 4015,
+      "variant_name": "Ly 100ml",
+      "price": 15000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "156",
+      "prod_id": 4015,
+      "variant_name": "Ly 200ml",
+      "price": 23000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "157",
+      "prod_id": 4016,
+      "variant_name": "Ly 100ml",
+      "price": 15000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "158",
+      "prod_id": 4016,
+      "variant_name": "Ly 200ml",
+      "price": 23000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "159",
+      "prod_id": 4017,
+      "variant_name": "Ly 100ml",
+      "price": 12000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "160",
+      "prod_id": 4017,
+      "variant_name": "Ly 200ml",
+      "price": 20000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "161",
+      "prod_id": 4018,
+      "variant_name": "Ly 100ml",
+      "price": 10000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "162",
+      "prod_id": 4018,
+      "variant_name": "Ly 200ml",
+      "price": 18000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "163",
+      "prod_id": 4019,
+      "variant_name": "Ly 100ml",
+      "price": 22000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "164",
+      "prod_id": 4019,
+      "variant_name": "Ly 200ml",
+      "price": 30000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "165",
+      "prod_id": 4020,
+      "variant_name": "Ly 100ml",
+      "price": 14000,
+      "weight": "100g",
+      "quantity": 100
+    },
+    {
+      "id": "166",
+      "prod_id": 4020,
+      "variant_name": "Ly 200ml",
+      "price": 22000,
+      "weight": "200g",
+      "quantity": 100
+    },
+    {
+      "id": "167",
+      "prod_id": 5001,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "168",
+      "prod_id": 5001,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "169",
+      "prod_id": 5002,
+      "variant_name": "Ly 300ml",
+      "price": 12000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "170",
+      "prod_id": 5002,
+      "variant_name": "Ly 500ml",
+      "price": 20000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "171",
+      "prod_id": 5003,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "172",
+      "prod_id": 5003,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "173",
+      "prod_id": 5004,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "174",
+      "prod_id": 5004,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "175",
+      "prod_id": 5005,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "176",
+      "prod_id": 5005,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "177",
+      "prod_id": 5006,
+      "variant_name": "Ly 300ml",
+      "price": 18000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "178",
+      "prod_id": 5006,
+      "variant_name": "Ly 500ml",
+      "price": 26000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "179",
+      "prod_id": 5007,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "180",
+      "prod_id": 5007,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "181",
+      "prod_id": 5008,
+      "variant_name": "Ly 300ml",
+      "price": 10000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "182",
+      "prod_id": 5008,
+      "variant_name": "Ly 500ml",
+      "price": 18000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "183",
+      "prod_id": 5009,
+      "variant_name": "Ly 300ml",
+      "price": 30000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "184",
+      "prod_id": 5009,
+      "variant_name": "Ly 500ml",
+      "price": 38000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "185",
+      "prod_id": 5010,
+      "variant_name": "Ly 300ml",
+      "price": 32000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "186",
+      "prod_id": 5010,
+      "variant_name": "Ly 500ml",
+      "price": 40000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "187",
+      "prod_id": 5011,
+      "variant_name": "Ly 300ml",
+      "price": 18000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "188",
+      "prod_id": 5011,
+      "variant_name": "Ly 500ml",
+      "price": 26000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "189",
+      "prod_id": 5012,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "190",
+      "prod_id": 5012,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "191",
+      "prod_id": 5013,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "192",
+      "prod_id": 5013,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "193",
+      "prod_id": 5014,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "194",
+      "prod_id": 5014,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "195",
+      "prod_id": 5015,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "196",
+      "prod_id": 5015,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "197",
+      "prod_id": 5016,
+      "variant_name": "Ly 300ml",
+      "price": 12000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "198",
+      "prod_id": 5016,
+      "variant_name": "Ly 500ml",
+      "price": 20000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "199",
+      "prod_id": 5017,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "200",
+      "prod_id": 5017,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "201",
+      "prod_id": 5018,
+      "variant_name": "Ly 300ml",
+      "price": 10000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "202",
+      "prod_id": 5018,
+      "variant_name": "Ly 500ml",
+      "price": 18000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "203",
+      "prod_id": 5019,
+      "variant_name": "Ly 300ml",
+      "price": 18000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "204",
+      "prod_id": 5019,
+      "variant_name": "Ly 500ml",
+      "price": 26000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "205",
+      "prod_id": 5020,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "206",
+      "prod_id": 5020,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "207",
+      "prod_id": 8001,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "208",
+      "prod_id": 8001,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "209",
+      "prod_id": 8002,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "210",
+      "prod_id": 8002,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "211",
+      "prod_id": 8003,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "212",
+      "prod_id": 8003,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "213",
+      "prod_id": 8004,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "214",
+      "prod_id": 8004,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "215",
+      "prod_id": 8005,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "216",
+      "prod_id": 8005,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "217",
+      "prod_id": 8006,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "218",
+      "prod_id": 8006,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "219",
+      "prod_id": 8007,
+      "variant_name": "Ly 300ml",
+      "price": 28000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "220",
+      "prod_id": 8007,
+      "variant_name": "Ly 500ml",
+      "price": 36000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "221",
+      "prod_id": 8008,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "222",
+      "prod_id": 8008,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "223",
+      "prod_id": 8009,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "224",
+      "prod_id": 8009,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "225",
+      "prod_id": 8010,
+      "variant_name": "Ly 300ml",
+      "price": 32000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "226",
+      "prod_id": 8010,
+      "variant_name": "Ly 500ml",
+      "price": 40000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "227",
+      "prod_id": 8011,
+      "variant_name": "Ly 300ml",
+      "price": 30000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "228",
+      "prod_id": 8011,
+      "variant_name": "Ly 500ml",
+      "price": 38000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "229",
+      "prod_id": 8012,
+      "variant_name": "Ly 300ml",
+      "price": 28000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "230",
+      "prod_id": 8012,
+      "variant_name": "Ly 500ml",
+      "price": 36000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "231",
+      "prod_id": 8013,
+      "variant_name": "Ly 300ml",
+      "price": 30000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "232",
+      "prod_id": 8013,
+      "variant_name": "Ly 500ml",
+      "price": 38000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "233",
+      "prod_id": 8014,
+      "variant_name": "Ly 300ml",
+      "price": 25000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "234",
+      "prod_id": 8014,
+      "variant_name": "Ly 500ml",
+      "price": 33000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "235",
+      "prod_id": 9001,
+      "variant_name": "Ly 300ml",
+      "price": 18000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "236",
+      "prod_id": 9001,
+      "variant_name": "Ly 500ml",
+      "price": 26000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "237",
+      "prod_id": 9002,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "238",
+      "prod_id": 9002,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "239",
+      "prod_id": 9003,
+      "variant_name": "Ly 300ml",
+      "price": 24000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "240",
+      "prod_id": 9003,
+      "variant_name": "Ly 500ml",
+      "price": 32000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "241",
+      "prod_id": 9005,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "242",
+      "prod_id": 9005,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "243",
+      "prod_id": 9006,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "244",
+      "prod_id": 9006,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "245",
+      "prod_id": 9007,
+      "variant_name": "Ly 300ml",
+      "price": 24000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "246",
+      "prod_id": 9007,
+      "variant_name": "Ly 500ml",
+      "price": 32000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "247",
+      "prod_id": 9008,
+      "variant_name": "Ly 300ml",
+      "price": 24000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "248",
+      "prod_id": 9008,
+      "variant_name": "Ly 500ml",
+      "price": 32000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "249",
+      "prod_id": 9010,
+      "variant_name": "Ly 300ml",
+      "price": 22000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "250",
+      "prod_id": 9010,
+      "variant_name": "Ly 500ml",
+      "price": 30000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "251",
+      "prod_id": 9013,
+      "variant_name": "Ly 300ml",
+      "price": 20000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "252",
+      "prod_id": 9013,
+      "variant_name": "Ly 500ml",
+      "price": 28000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "253",
+      "prod_id": 9014,
+      "variant_name": "Ly 300ml",
+      "price": 24000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "254",
+      "prod_id": 9014,
+      "variant_name": "Ly 500ml",
+      "price": 32000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "255",
+      "prod_id": 9017,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "256",
+      "prod_id": 9017,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "257",
+      "prod_id": 9018,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "258",
+      "prod_id": 9018,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "259",
+      "prod_id": 9019,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "260",
+      "prod_id": 9019,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    },
+    {
+      "id": "261",
+      "prod_id": 9020,
+      "variant_name": "Ly 300ml",
+      "price": 15000,
+      "weight": "300ml",
+      "quantity": 100
+    },
+    {
+      "id": "262",
+      "prod_id": 9020,
+      "variant_name": "Ly 500ml",
+      "price": 23000,
+      "weight": "500ml",
+      "quantity": 100
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn An",
+      "phone": "0901234567",
+      "address": "123 Đường Trần Phú, Thành phố Nha Trang, Khánh Hòa"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị Bình",
+      "phone": "0912345678",
+      "address": "45 Đường Lê Hồng Phong, Thành phố Nha Trang, Khánh Hòa"
+    },
+    {
+      "id": "99",
+      "name": "Quản Trị Viên",
+      "phone": "0999999999",
+      "address": "Nha Trang, Khánh Hòa"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5001",
+      "user_id": 1,
+      "total_amount": 50000,
+      "status": "delivered",
+      "created_date": "2026-10-01 10:30:00"
+    },
+    {
+      "id": "5002",
+      "user_id": 2,
+      "total_amount": 42000,
+      "status": "pending",
+      "created_date": "2026-10-04 09:15:00"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "bank",
+      "total": 18000,
+      "created_at": "2026-10-12T03:11:59.334Z",
+      "id": "KU1NJKN7Y_U"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "cod",
+      "total": 18000,
+      "created_at": "2026-10-12T03:18:55.005Z",
+      "id": "I8ZyhJveCL4"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "cod",
+      "total": 18000,
+      "created_at": "2026-10-12T03:27:45.747Z",
+      "id": "mQ3njuc-FQE"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "bank",
+      "total": 0,
+      "created_at": "2026-10-12T03:43:40.414Z",
+      "id": "dOFFO4czAOg"
+    }
+  ],
+  "order_details": [
+    {
+      "id": "1",
+      "order_id": 5001,
+      "prod_id": 101,
+      "quantity": 2,
+      "unit_price": 25000
+    },
+    {
+      "id": "2",
+      "order_id": 5002,
+      "prod_id": 201,
+      "quantity": 1,
+      "unit_price": 18000
+    },
+    {
+      "id": "3",
+      "order_id": 5002,
+      "prod_id": 501,
+      "quantity": 2,
+      "unit_price": 12000
+    },
+    {
+      "order_id": "KU1NJKN7Y_U",
+      "prod_id": "201",
+      "variant_id": null,
+      "quantity": 1,
+      "id": "N9lU06TfXs8"
+    },
+    {
+      "order_id": "I8ZyhJveCL4",
+      "prod_id": "201",
+      "variant_id": null,
+      "quantity": 1,
+      "id": "5_G7J_JJG6U"
+    },
+    {
+      "order_id": "mQ3njuc-FQE",
+      "prod_id": "201",
+      "variant_id": null,
+      "quantity": 1,
+      "id": "ZMIoxUdZ8nE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ Hàng Của Bạn - Tiệm Ăn Vặt Cay Quán</title>
+  <meta name="description"
+    content="Xem và kiểm tra lại danh sách các món ăn vặt trong giỏ hàng trước khi đặt thanh toán.">
+  <!-- Sử dụng 100% Tailwind CSS qua CDN (Không dùng CSS thủ công) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+  <!-- Thông báo khuyến mãi đầu trang -->
+  <div class="bg-amber-500 text-stone-950 text-xs font-semibold py-2 px-4 text-center">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2">
+      <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+      </svg>
+      <span>Mẹo: Đơn hàng từ 150.000₫ được tự động MIỄN PHÍ VẬN CHUYỂN toàn thành phố!</span>
+    </div>
+  </div>
+
+  <!-- Header Điều Hướng Chuẩn -->
+  <header class="bg-white border-b border-stone-200 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+      <!-- Vùng 1: Tên thương hiệu -->
+      <a href="/index.html" class="flex items-center gap-2">
+        <div
+          class="w-9 h-9 rounded-lg bg-amber-500 flex items-center justify-center text-stone-950 font-bold shadow-sm">
+          <svg class="w-5 h-5 text-stone-950" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+            </path>
+          </svg>
+        </div>
+        <span class="text-xl font-bold tracking-tight text-stone-900">Ăn Vặt Cay Quán</span>
+      </a>
+
+      <!-- Vùng 2: Điều hướng -->
+      <nav class="flex items-center gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-stone-600">
+        <a href="/index.html" class="hover:text-amber-600 transition-colors">Trang chủ</a>
+        <a href="/Pages/products.html" class="hover:text-amber-600 transition-colors">Thực đơn món</a>
+        <a href="/Pages/cart.html" class="text-amber-600 font-semibold">Giỏ hàng</a>
+        <a href="/Pages/checkout.html" class="hover:text-amber-600 transition-colors">Thanh toán</a>
+      </nav>
+
+      <!-- Vùng 3: Nút giỏ hàng -->
+      <div class="flex items-center gap-3">
+        <a href="/Pages/cart.html"
+          class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-stone-900 text-white text-xs font-semibold shadow-sm">
+          <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+          </svg>
+          <span class="hidden sm:inline">Giỏ hàng</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white border-b border-stone-200 py-3">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2 text-xs text-stone-500">
+      <a href="/index.html" class="hover:text-amber-600 transition-colors">Trang chủ</a>
+      <span>/</span>
+      <span class="text-stone-900 font-medium">Giỏ hàng của bạn</span>
+    </div>
+  </div>
+
+  <!-- Nội dung trang giỏ hàng thuần HTML tĩnh -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-grow">
+
+    <div class="mb-6 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">Giỏ Hàng Món Ăn Vặt</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-1">Đang có 3 loại món ăn vặt được chọn trong giỏ</p>
+      </div>
+      <a href="/Pages/cart.html" class="text-xs text-stone-500 hover:text-stone-800">Làm mới giỏ</a>
+    </div>
+
+    <!-- Bố cục 2 Cột Giỏ Hàng -->
+    <!-- Cột phải: Bảng Tóm Tắt & Thanh Toán -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <!-- Cột trái: danh sách món -->
+      <div class="lg:col-span-8 bg-white rounded-2xl border border-stone-200 p-6 shadow-xs">
+        <h2 class="text-base font-bold text-stone-900 pb-3 border-b border-stone-200">Giỏ hàng của bạn</h2>
+        <div id="cartList" class="divide-y divide-stone-200"></div>
+      </div>
+
+      <!-- Cột phải: Tóm tắt -->
+      <div class="lg:col-span-4 bg-white rounded-2xl border border-stone-200 p-6 shadow-xs space-y-5">
+        <h2 class="text-base font-bold text-stone-900 pb-3 border-b border-stone-200">Tóm Tắt Đơn Hàng</h2>
+
+        <div class="space-y-3 text-xs pt-3 border-t border-stone-100">
+          <div class="flex justify-between text-stone-600">
+            <span>Tạm tính tiền món (<span id="itemCount">0</span> phần):</span>
+            <span id="subtotal" class="font-bold text-stone-900 font-mono tabular-nums">0₫</span>
+          </div>
+
+          <div class="flex justify-between text-stone-600">
+            <span>Phí vận chuyển giao nhanh:</span>
+            <span id="shippingFee" class="font-bold text-emerald-600 font-mono tabular-nums">0₫ (Miễn phí)</span>
+          </div>
+
+          <div class="pt-3 border-t border-stone-200 flex justify-between items-baseline">
+            <span class="text-sm font-bold text-stone-900">Tổng thanh toán:</span>
+            <span id="grandTotal" class="text-xl font-extrabold text-amber-600 font-mono tabular-nums">0₫</span>
+          </div>
+          <button id="checkoutBtn"
+            class="w-full py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold text-sm transition-colors">
+            Tiến hành đặt hàng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ghi chú bảo đảm -->
+    <div class="text-[11px] text-stone-500 space-y-1.5 pt-2">
+      <div class="flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>Được kiểm tra đồ ăn trước khi nhận</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>Thanh toán tiền mặt COD hoặc quét mã MoMo / QR</span>
+      </div>
+    </div>
+
+
+    </div>
+
+  </main>
+
+  <!-- Chân trang Footer -->
+  <footer class="mt-auto bg-stone-900 text-stone-300 border-t border-stone-800">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+      <div>&copy; 2026 Tiệm Ăn Vặt Cay Quán · Đồ án môn học Lập trình Web sinh viên (HTML + Tailwind thuần)</div>
+      <div class="flex items-center gap-4">
+        <a href="../index.html" class="hover:text-amber-400 transition-colors">Trang chủ</a>
+        <a href="/Pages/products.html" class="hover:text-amber-400 transition-colors">Món ăn</a>
+        <a href="/Pages/cart.html" class="hover:text-amber-400 transition-colors">Giỏ hàng</a>
+        <a href="/Pages/checkout.html" class="hover:text-amber-400 transition-colors">Thanh toán</a>
+        <!-- <a href="admin/index.html" class="text-amber-400 font-semibold hover:underline">Quản trị Admin</a> -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="/Compoment/cart.js"></script>
+</body>
+
+</html>
