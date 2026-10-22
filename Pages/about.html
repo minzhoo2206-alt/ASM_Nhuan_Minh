@@ -1,0 +1,431 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Giới Thiệu - Ăn Vặt Cay Quán</title>
+
+    <meta name="description"
+        content="Tìm hiểu về Ăn Vặt Cay Quán - chuyên cung cấp các món ăn vặt thơm ngon, giòn cay, chất lượng và giao hàng tận nơi.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+    <!-- THÔNG BÁO KHUYẾN MÃI -->
+    <div class="bg-amber-500 text-stone-950 text-xs font-semibold py-2 px-4 text-center">
+        Giao nhanh nội thành 30 phút · Miễn phí vận chuyển cho đơn hàng từ 150.000₫
+    </div>
+
+    <!-- HEADER -->
+    <header class="bg-white border-b border-stone-200 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-16 flex flex-wrap items-center justify-between gap-3 py-3">
+
+            <!-- LOGO -->
+            <a href="/index.html" class="flex items-center gap-2">
+                <div class="w-9 h-9 rounded-lg bg-amber-500 flex items-center justify-center font-bold">
+                    AV
+                </div>
+
+                <span class="text-xl font-bold tracking-tight text-stone-900">
+                    Ăn Vặt Cay Quán
+                </span>
+            </a>
+
+            <!-- MENU -->
+            <nav class="flex flex-wrap items-center gap-3 sm:gap-6 text-xs sm:text-sm font-medium text-stone-600">
+                <a href="/index.html" class="hover:text-amber-600 transition-colors">
+                    Trang chủ
+                </a>
+
+                <a href="/Pages/products.html" class="hover:text-amber-600 transition-colors">
+                    Thực đơn món
+                </a>
+
+                <a href="/Pages/about.html" class="text-amber-600 font-semibold">
+                    Giới thiệu
+                </a>
+
+                <a href="/Pages/contact.html" class="hover:text-amber-600 transition-colors">
+                    Liên hệ
+                </a>
+            </nav>
+
+            <!-- NÚT GIỎ HÀNG -->
+            <a href="/Pages/cart.html"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-stone-900 hover:bg-stone-800 text-white text-xs font-semibold transition-colors">
+                🛒 Giỏ hàng
+            </a>
+
+        </div>
+    </header>
+
+    <main class="flex-1">
+
+        <!-- BANNER GIỚI THIỆU -->
+        <section class="bg-white border-b border-stone-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+                    <div>
+                        <span class="inline-block bg-amber-50 text-amber-700 border border-amber-200 rounded-md px-3 py-1 text-xs font-semibold mb-5">
+                            CHÀO MỪNG BẠN ĐẾN VỚI CAY QUÁN
+                        </span>
+
+                        <h1 class="text-4xl sm:text-5xl font-extrabold text-stone-900 leading-tight">
+                            Ăn Vặt Thỏa Thích,
+                            <span class="text-amber-500">Đậm Vị Yêu Thương!</span>
+                        </h1>
+
+                        <p class="mt-5 text-stone-600 leading-relaxed text-sm sm:text-base">
+                            Ăn Vặt Cay Quán là điểm đến dành cho những tín đồ
+                            yêu thích các món ăn vặt thơm ngon, giòn rụm và
+                            đậm đà hương vị. Chúng tôi mong muốn mang đến cho
+                            bạn những món ăn hấp dẫn với mức giá hợp lý và
+                            trải nghiệm mua sắm tiện lợi.
+                        </p>
+
+                        <p class="mt-4 text-stone-600 leading-relaxed text-sm sm:text-base">
+                            Từ bánh tráng trộn, khô bò đến cơm cháy chà bông,
+                            mỗi món ăn đều được lựa chọn và đóng gói cẩn thận
+                            để bạn có thể thưởng thức mọi lúc, mọi nơi.
+                        </p>
+
+                        <div class="flex flex-wrap gap-3 mt-7">
+                            <a href="/Pages/products.html"
+                                class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold text-sm transition-colors">
+                                Khám phá thực đơn →
+                            </a>
+
+                            <a href="/Pages/contact.html"
+                                class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-sm transition-colors">
+                                Liên hệ với chúng tôi
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- HÌNH ẢNH -->
+                    <div class="relative">
+                        <img
+                            src="/asset/image/banh-trang-tron-thap-cam.jpg"
+                            alt="Các món ăn vặt hấp dẫn của Cay Quán"
+                            class="w-full h-72 sm:h-96 object-cover rounded-2xl shadow-lg border border-stone-200">
+
+                        <div class="absolute bottom-4 left-4 right-4 bg-stone-900/85 text-white rounded-xl p-4">
+                            <p class="text-amber-400 font-bold text-sm">
+                                Ăn ngon mỗi ngày
+                            </p>
+
+                            <p class="text-xs text-stone-200 mt-1">
+                                Đa dạng món ngon · Giá cả hợp lý · Giao hàng tiện lợi
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CÂU CHUYỆN THƯƠNG HIỆU -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
+
+            <div class="max-w-3xl mx-auto text-center">
+                <span class="text-amber-600 text-xs font-bold uppercase tracking-widest">
+                    Câu chuyện thương hiệu
+                </span>
+
+                <h2 class="text-3xl font-extrabold text-stone-900 mt-3">
+                    Hương Vị Nhỏ, Niềm Vui Lớn
+                </h2>
+
+                <p class="text-stone-600 leading-relaxed mt-5 text-sm sm:text-base">
+                    Chúng tôi tin rằng những món ăn vặt ngon có thể làm cho
+                    một ngày bình thường trở nên thú vị hơn. Một gói bánh
+                    tráng khi học bài, một chút khô bò lúc xem phim hay một
+                    buổi tụ tập cùng bạn bè đều có thể trở thành những khoảnh
+                    khắc đáng nhớ.
+                </p>
+
+                <p class="text-stone-600 leading-relaxed mt-4 text-sm sm:text-base">
+                    Vì vậy, Cay Quán hướng đến việc mang đến nhiều lựa chọn
+                    ăn vặt hấp dẫn, dễ đặt mua và thuận tiện giao đến tận nơi.
+                    Sự hài lòng của khách hàng luôn là điều chúng tôi quan tâm.
+                </p>
+            </div>
+
+            <!-- GIÁ TRỊ NỔI BẬT -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+
+                <div class="bg-white p-7 rounded-2xl border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center text-2xl">
+                        🌶️
+                    </div>
+
+                    <h3 class="text-lg font-bold text-stone-900 mt-5">
+                        Hương Vị Hấp Dẫn
+                    </h3>
+
+                    <p class="text-sm text-stone-600 leading-relaxed mt-3">
+                        Đa dạng món ăn từ cay nồng đến đậm đà, phù hợp
+                        để thưởng thức khi học tập, làm việc hoặc tụ tập
+                        cùng bạn bè.
+                    </p>
+                </div>
+
+                <div class="bg-white p-7 rounded-2xl border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center text-2xl">
+                        🥡
+                    </div>
+
+                    <h3 class="text-lg font-bold text-stone-900 mt-5">
+                        Đóng Gói Cẩn Thận
+                    </h3>
+
+                    <p class="text-sm text-stone-600 leading-relaxed mt-3">
+                        Các sản phẩm được đóng gói gọn gàng, giúp bảo quản
+                        thuận tiện và giữ hương vị tốt trong quá trình
+                        vận chuyển.
+                    </p>
+                </div>
+
+                <div class="bg-white p-7 rounded-2xl border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center text-2xl">
+                        ❤️
+                    </div>
+
+                    <h3 class="text-lg font-bold text-stone-900 mt-5">
+                        Khách Hàng Là Ưu Tiên
+                    </h3>
+
+                    <p class="text-sm text-stone-600 leading-relaxed mt-3">
+                        Chúng tôi luôn hướng đến trải nghiệm mua sắm
+                        đơn giản, thông tin rõ ràng và hỗ trợ khách hàng
+                        khi cần thiết.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CAM KẾT -->
+        <section class="bg-white border-y border-stone-200 py-14 lg:py-20">
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-amber-600 text-xs font-bold uppercase tracking-widest">
+                        Vì sự hài lòng của bạn
+                    </span>
+
+                    <h2 class="text-3xl font-extrabold text-stone-900 mt-3">
+                        Điều Chúng Tôi Hướng Đến
+                    </h2>
+
+                    <p class="text-sm text-stone-500 mt-3 leading-relaxed">
+                        Không chỉ là món ăn vặt, chúng tôi còn mong muốn
+                        mang đến trải nghiệm mua sắm thuận tiện và đáng tin cậy.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                    <div class="flex gap-4 p-5 rounded-xl bg-stone-50 border border-stone-200">
+                        <div class="text-2xl">✓</div>
+
+                        <div>
+                            <h3 class="font-bold text-stone-900">
+                                Chú Trọng Chất Lượng
+                            </h3>
+
+                            <p class="text-sm text-stone-600 mt-2 leading-relaxed">
+                                Lựa chọn sản phẩm cẩn thận và chú ý đến
+                                việc bảo quản, đóng gói trước khi giao hàng.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 p-5 rounded-xl bg-stone-50 border border-stone-200">
+                        <div class="text-2xl">✓</div>
+
+                        <div>
+                            <h3 class="font-bold text-stone-900">
+                                Giá Cả Hợp Lý
+                            </h3>
+
+                            <p class="text-sm text-stone-600 mt-2 leading-relaxed">
+                                Cung cấp nhiều lựa chọn món ăn vặt với
+                                các mức giá để khách hàng dễ dàng lựa chọn.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 p-5 rounded-xl bg-stone-50 border border-stone-200">
+                        <div class="text-2xl">✓</div>
+
+                        <div>
+                            <h3 class="font-bold text-stone-900">
+                                Giao Hàng Tiện Lợi
+                            </h3>
+
+                            <p class="text-sm text-stone-600 mt-2 leading-relaxed">
+                                Hướng đến quy trình đặt món đơn giản,
+                                giao hàng nhanh chóng trong khu vực phục vụ.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 p-5 rounded-xl bg-stone-50 border border-stone-200">
+                        <div class="text-2xl">✓</div>
+
+                        <div>
+                            <h3 class="font-bold text-stone-900">
+                                Hỗ Trợ Khách Hàng
+                            </h3>
+
+                            <p class="text-sm text-stone-600 mt-2 leading-relaxed">
+                                Tiếp nhận thắc mắc và hỗ trợ khách hàng
+                                trong quá trình mua sắm, nhận hàng.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA CUỐI TRANG -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+
+            <div class="bg-stone-900 rounded-2xl p-8 sm:p-12 text-center relative overflow-hidden">
+
+                <div class="relative z-10">
+                    <span class="text-amber-400 text-3xl">🌶️</span>
+
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-4">
+                        Sẵn Sàng Thưởng Thức Món Ngon?
+                    </h2>
+
+                    <p class="text-sm text-stone-300 mt-4 max-w-xl mx-auto leading-relaxed">
+                        Khám phá thực đơn của Cay Quán và chọn ngay những
+                        món ăn vặt yêu thích cho hôm nay!
+                    </p>
+
+                    <div class="flex flex-wrap justify-center gap-3 mt-7">
+                        <a href="/Pages/products.html"
+                            class="px-6 py-3 rounded-lg bg-amber-500 hover:bg-amber-600 text-stone-950 text-sm font-bold transition-colors">
+                            Xem thực đơn ngay →
+                        </a>
+
+                        <a href="/Pages/contact.html"
+                            class="px-6 py-3 rounded-lg border border-stone-600 hover:bg-stone-800 text-white text-sm font-semibold transition-colors">
+                            Liên hệ cửa hàng
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-auto bg-stone-900 text-stone-300 border-t border-stone-800">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- THƯƠNG HIỆU -->
+                <div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-9 h-9 rounded-lg bg-amber-500 text-stone-950 flex items-center justify-center font-bold">
+                            AV
+                        </div>
+
+                        <span class="font-bold text-white">
+                            Ăn Vặt Cay Quán
+                        </span>
+                    </div>
+
+                    <p class="text-xs text-stone-400 mt-4 leading-relaxed">
+                        Thế giới ăn vặt thơm ngon, hấp dẫn và tiện lợi
+                        dành cho những tín đồ mê ăn vặt.
+                    </p>
+                </div>
+
+                <!-- LIÊN KẾT -->
+                <div>
+                    <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-4">
+                        Liên kết nhanh
+                    </h3>
+
+                    <ul class="space-y-3 text-xs text-stone-400">
+                        <li>
+                            <a href="/index.html" class="hover:text-amber-400">
+                                Trang chủ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/Pages/products.html" class="hover:text-amber-400">
+                                Thực đơn món
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/Pages/about.html" class="hover:text-amber-400">
+                                Giới thiệu
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/Pages/cart.html" class="hover:text-amber-400">
+                                Giỏ hàng
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CHÍNH SÁCH -->
+                <div>
+                    <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-4">
+                        Chính sách
+                    </h3>
+
+                    <ul class="space-y-3 text-xs text-stone-400">
+                        <li>Đổi trả theo chính sách cửa hàng</li>
+                        <li>Đóng gói cẩn thận</li>
+                        <li>Miễn phí vận chuyển từ 150.000₫</li>
+                        <li>Chú trọng an toàn thực phẩm</li>
+                    </ul>
+                </div>
+
+                <!-- LIÊN HỆ -->
+                <div>
+                    <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-4">
+                        Thông tin liên hệ
+                    </h3>
+
+                    <ul class="space-y-3 text-xs text-stone-400">
+                        <li>📍 124/8 Nguyễn Tri Phương, Quận 5, TP. Hồ Chí Minh</li>
+                        <li>📞 0909 123 456</li>
+                        <li>🕒 08:00 - 22:30 mỗi ngày</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-stone-800 text-center text-xs text-stone-500">
+                © 2026 Ăn Vặt Cay Quán · Website bán đồ ăn vặt
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

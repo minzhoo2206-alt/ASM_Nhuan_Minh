@@ -74,6 +74,11 @@ class CheckoutPage extends BaseService {
     if (!this.summaryContainer) return;
 
     const cart = this.getCart();
+    if (cart.length === 0) {
+      alert("Giỏ hàng đang trống!");
+      window.location.href = "/Pages/cart.html";
+      return;
+    }
     this.summaryContainer.innerHTML = "";
     let subtotal = 0;
     let itemCount = 0;
@@ -159,11 +164,12 @@ class CheckoutPage extends BaseService {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(order)
         });
+        if (!orderRes.ok) throw new Error("Không thể tạo đơn hàng.");
         const newOrder = await orderRes.json();
 
         // Gửi chi tiết từng mặt hàng lên server
         for (let item of cart) {
-          await fetch(this.orderDetailsApi, {
+          const detailRes = await fetch(this.orderDetailsApi, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -173,6 +179,7 @@ class CheckoutPage extends BaseService {
               quantity: item.quantity
             })
           });
+          if (!detailRes.ok) throw new Error("Không thể lưu chi tiết đơn hàng.");
         }
 
         // Xóa giỏ hàng sau khi đặt thành công
@@ -189,6 +196,11 @@ class CheckoutPage extends BaseService {
 
   // Hàm khởi chạy trang thanh toán
   async init() {
+    if (this.getCart().length === 0) {
+      alert("Giỏ hàng đang trống!");
+      window.location.href = "/Pages/cart.html";
+      return;
+    }
     // Render danh sách đơn hàng và lấy tổng tiền
     const total = await this.renderSummary();
     // FIX: Truyền total vào setupForm thay vì tính lại

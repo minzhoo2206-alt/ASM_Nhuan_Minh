@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ - Tiệm Ăn Vặt Cay Quán</title>
+  <meta name="description" content="Liên hệ Tiệm Ăn Vặt Cay Quán để được tư vấn món ăn, đặt hàng và hỗ trợ đơn hàng.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+  <!-- Thông báo khuyến mãi đầu trang -->
+  <div class="bg-amber-500 text-stone-950 text-xs font-semibold py-2 px-4 text-center">
+    Giao nhanh nội thành 30 phút · Miễn phí vận chuyển cho đơn hàng từ 150.000₫
+  </div>
+
+  <!-- Header đồng bộ với trang chủ -->
+  <header class="bg-white border-b border-stone-200 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-16 py-3 flex flex-wrap items-center justify-between gap-4">
+      <a href="/index.html" class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-lg bg-amber-500 flex items-center justify-center text-stone-950 font-bold shadow-sm">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+          </svg>
+        </div>
+        <span class="text-lg sm:text-xl font-bold tracking-tight text-stone-900">Ăn Vặt Cay Quán</span>
+      </a>
+
+      <nav class="flex flex-wrap items-center gap-4 sm:gap-6 text-xs sm:text-sm font-medium text-stone-600" aria-label="Điều hướng chính">
+        <a href="/index.html" class="hover:text-amber-600 transition-colors">Trang chủ</a>
+        <a href="/Pages/products.html" class="hover:text-amber-600 transition-colors">Thực đơn món</a>
+        <a href="/Pages/about.html" class="hover:text-amber-600 transition-colors">Giới thiệu</a>
+        <a href="/Pages/contact.html" class="text-amber-600 font-semibold" aria-current="page">Liên hệ</a>
+      </nav>
+
+      <a href="/Pages/cart.html" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-stone-900 hover:bg-stone-800 text-white text-xs font-semibold transition-colors shadow-sm">
+        <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+        </svg>
+        <span>Giỏ hàng</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Tiêu đề trang -->
+    <section class="bg-white border-b border-stone-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 text-center">
+        <span class="inline-flex items-center gap-2 text-xs font-semibold text-amber-700 bg-amber-50 px-3 py-1.5 rounded-md border border-amber-200">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+          CAY QUÁN LUÔN SẴN SÀNG HỖ TRỢ
+        </span>
+        <h1 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 tracking-tight">Liên hệ với chúng tôi</h1>
+        <p class="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-stone-600 leading-relaxed">
+          Bạn cần tư vấn món ăn, hỏi về đơn hàng hay góp ý dịch vụ? Hãy gửi lời nhắn cho Cay Quán. Chúng tôi rất vui được hỗ trợ bạn!
+        </p>
+      </div>
+    </section>
+
+    <!-- Nội dung liên hệ -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <!-- Thông tin cửa hàng -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <h2 class="text-2xl font-bold text-stone-900">Thông tin liên hệ</h2>
+            <p class="mt-2 text-sm text-stone-600 leading-relaxed">Liên hệ trực tiếp với cửa hàng để được tư vấn nhanh chóng về thực đơn và đơn đặt hàng.</p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="flex gap-4 p-5 rounded-xl bg-white border border-stone-200">
+              <div class="w-11 h-11 shrink-0 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-stone-900">Địa chỉ cửa hàng</h3>
+                <p class="mt-1 text-sm text-stone-600 leading-relaxed">124/8 Đường Nguyễn Tri Phương, Quận 5, TP. Hồ Chí Minh</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-5 rounded-xl bg-white border border-stone-200">
+              <div class="w-11 h-11 shrink-0 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-stone-900">Hotline đặt món</h3>
+                <a href="tel:0909123456" class="mt-1 inline-block text-sm font-semibold text-amber-700 hover:text-amber-800">0909 123 456</a>
+                <p class="mt-1 text-xs text-stone-500">Gọi để được hỗ trợ đặt món và kiểm tra đơn hàng.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 p-5 rounded-xl bg-white border border-stone-200">
+              <div class="w-11 h-11 shrink-0 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-stone-900">Giờ mở cửa</h3>
+                <p class="mt-1 text-sm text-stone-600">08:00 – 22:30 mỗi ngày</p>
+                <p class="mt-1 text-xs text-stone-500">Sẵn sàng phục vụ những món ăn vặt thơm ngon.</p>
+              </div>
+            </div>
+
+            <div class="rounded-xl bg-stone-900 p-5 text-white">
+              <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+                <h3 class="font-bold">Hỗ trợ nhanh chóng</h3>
+              </div>
+              <p class="mt-2 text-sm text-stone-300 leading-relaxed">Giao nhanh nội thành trong 30 phút. Miễn phí vận chuyển cho đơn hàng từ 150.000₫.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form liên hệ -->
+        <div class="lg:col-span-7">
+          <div class="bg-white border border-stone-200 rounded-2xl shadow-sm p-5 sm:p-8">
+            <div class="mb-6">
+              <h2 class="text-2xl font-bold text-stone-900">Gửi lời nhắn cho Cay Quán</h2>
+              <p class="mt-2 text-sm text-stone-500">Vui lòng điền thông tin bên dưới. Các trường có dấu * là bắt buộc.</p>
+            </div>
+
+            <form action="#" method="post" class="space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="fullName" class="block text-sm font-semibold text-stone-700 mb-2">Họ và tên <span class="text-amber-600">*</span></label>
+                  <input id="fullName" name="fullName" type="text" required autocomplete="name" placeholder="Nhập họ và tên"
+                    class="w-full rounded-lg border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-800 placeholder:text-stone-400 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-100">
+                </div>
+                <div>
+                  <label for="phone" class="block text-sm font-semibold text-stone-700 mb-2">Số điện thoại <span class="text-amber-600">*</span></label>
+                  <input id="phone" name="phone" type="tel" required autocomplete="tel" placeholder="Ví dụ: 0909 123 456"
+                    class="w-full rounded-lg border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-800 placeholder:text-stone-400 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-100">
+                </div>
+              </div>
+
+              <div>
+                <label for="email" class="block text-sm font-semibold text-stone-700 mb-2">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="example@email.com"
+                  class="w-full rounded-lg border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-800 placeholder:text-stone-400 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-100">
+              </div>
+
+              <div>
+                <label for="topic" class="block text-sm font-semibold text-stone-700 mb-2">Chủ đề liên hệ <span class="text-amber-600">*</span></label>
+                <select id="topic" name="topic" required
+                  class="w-full rounded-lg border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-700 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-100">
+                  <option value="" disabled selected>-- Chọn chủ đề --</option>
+                  <option value="menu">Tư vấn thực đơn</option>
+                  <option value="order">Kiểm tra đơn hàng</option>
+                  <option value="delivery">Giao hàng và thanh toán</option>
+                  <option value="feedback">Góp ý dịch vụ</option>
+                  <option value="other">Khác</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-semibold text-stone-700 mb-2">Nội dung tin nhắn <span class="text-amber-600">*</span></label>
+                <textarea id="message" name="message" rows="5" required placeholder="Bạn cần Cay Quán hỗ trợ điều gì?"
+                  class="w-full resize-y rounded-lg border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-800 placeholder:text-stone-400 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-100"></textarea>
+              </div>
+
+              <button type="submit" class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-lg bg-amber-500 hover:bg-amber-600 px-6 py-3 text-sm font-bold text-stone-950 transition-colors shadow-sm">
+                Gửi tin nhắn
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </button>
+              <p class="text-xs text-stone-500 leading-relaxed">Lưu ý: Form hiện là giao diện HTML. Để gửi và lưu tin nhắn thật, cần kết nối với backend hoặc dịch vụ xử lý biểu mẫu.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer đồng bộ với trang chủ -->
+  <footer class="mt-auto bg-stone-900 text-stone-300 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <div class="w-7 h-7 rounded bg-amber-500 flex items-center justify-center text-stone-950 font-bold text-xs">AV</div>
+            <span class="text-base font-bold text-white tracking-tight">Tiệm Ăn Vặt Cay Quán</span>
+          </div>
+          <p class="text-xs text-stone-400 leading-relaxed">Đồ án thiết kế website bán đồ ăn vặt với giao diện đơn giản, thân thiện và dễ sử dụng.</p>
+        </div>
+
+        <div>
+          <h2 class="text-xs font-semibold text-white uppercase tracking-wider mb-3">Các trang chính</h2>
+          <ul class="space-y-2 text-xs text-stone-400">
+            <li><a href="/index.html" class="hover:text-amber-400 transition-colors">Trang chủ</a></li>
+            <li><a href="/Pages/products.html" class="hover:text-amber-400 transition-colors">Thực đơn món</a></li>
+            <li><a href="/Pages/cart.html" class="hover:text-amber-400 transition-colors">Giỏ hàng</a></li>
+            <li><a href="/Pages/checkout.html" class="hover:text-amber-400 transition-colors">Thanh toán</a></li>
+            <li><a href="/Pages/contact.html" class="text-amber-400 font-semibold">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-xs font-semibold text-white uppercase tracking-wider mb-3">Chính sách cửa hàng</h2>
+          <ul class="space-y-2 text-xs text-stone-400">
+            <li>Đổi trả miễn phí trong 24 giờ</li>
+            <li>Kiểm tra hàng trước khi thanh toán</li>
+            <li>Freeship đơn hàng từ 150.000₫</li>
+            <li>Đảm bảo vệ sinh an toàn thực phẩm</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-xs font-semibold text-white uppercase tracking-wider mb-3">Thông tin liên hệ</h2>
+          <ul class="space-y-3 text-xs text-stone-400">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span>124/8 Đường Nguyễn Tri Phương, Quận 5, TP. Hồ Chí Minh</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <a href="tel:0909123456" class="hover:text-amber-400">0909 123 456</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>08:00 - 22:30 mỗi ngày</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-stone-800 text-center text-xs text-stone-500">
+        &copy; 2026 Tiệm Ăn Vặt Cay Quán · Website đồ án môn học Lập trình Web
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

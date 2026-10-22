@@ -1,8 +1,3 @@
-// ============================================================
-// products.js - Trang Danh Sách Sản Phẩm
-// Dùng kế thừa (class) để tái sử dụng các hàm dùng chung
-// ============================================================
-
 // ===== CLASS CHA: chứa các hàm dùng chung =====
 class BaseService {
   constructor() {

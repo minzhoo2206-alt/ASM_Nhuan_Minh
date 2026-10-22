@@ -3265,6 +3265,26 @@
       "total": 0,
       "created_at": "2026-10-12T03:43:40.414Z",
       "id": "dOFFO4czAOg"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "cod",
+      "total": 25000,
+      "created_at": "2026-10-17T03:49:28.718Z",
+      "id": "CfVk8Qjuq4U"
+    },
+    {
+      "fullname": "Nguyễn Văn Nam",
+      "phone": "0909123456",
+      "address": "124/8 Đường Nguyễn Tri Phương, Phường 9, Quận 5, TP.HCM",
+      "note": "",
+      "payment": "cod",
+      "total": 25000,
+      "created_at": "2026-10-22T07:38:26.049Z",
+      "id": "YEFMDmfGsSY"
     }
   ],
   "order_details": [
@@ -3309,6 +3329,20 @@
       "variant_id": null,
       "quantity": 1,
       "id": "ZMIoxUdZ8nE"
+    },
+    {
+      "order_id": "CfVk8Qjuq4U",
+      "prod_id": "301",
+      "variant_id": null,
+      "quantity": 1,
+      "id": "LHaapTOhbZ8"
+    },
+    {
+      "order_id": "YEFMDmfGsSY",
+      "prod_id": "301",
+      "variant_id": null,
+      "quantity": 1,
+      "id": "avcHuhbk-24"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
