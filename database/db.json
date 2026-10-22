@@ -3191,24 +3191,23 @@
       "quantity": 100
     }
   ],
-  "users": [
+  "admins": [
     {
       "id": "1",
-      "name": "Nguyễn Văn An",
-      "phone": "0901234567",
-      "address": "123 Đường Trần Phú, Thành phố Nha Trang, Khánh Hòa"
-    },
+      "fullname": "Quản Trị Viên",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "accounts": [
     {
-      "id": "2",
-      "name": "Trần Thị Bình",
-      "phone": "0912345678",
-      "address": "45 Đường Lê Hồng Phong, Thành phố Nha Trang, Khánh Hòa"
-    },
-    {
-      "id": "99",
-      "name": "Quản Trị Viên",
-      "phone": "0999999999",
-      "address": "Nha Trang, Khánh Hòa"
+      "id": "1",
+      "fullname": "Khách Hàng",
+      "email": "user@gmail.com",
+      "password": "user123",
+      "role": "user",
+      "created_date": "2026-10-22 10:00:00"
     }
   ],
   "orders": [

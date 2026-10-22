@@ -2,20 +2,13 @@
 export default class AuthModel {
   constructor() {
     // json-server riêng cho phần tài khoản (database/auth.json), chạy ở cổng 3001
-    this.baseUrl = "http://localhost:3001";
+    this.baseUrl = "http://localhost:3000";
     this.accountsApi = this.baseUrl + "/accounts";
     this.adminsApi = this.baseUrl + "/admins";
     this.sessionKey = "auth_session";
   }
 
-  // Mã hoá SHA-256 để không lưu mật khẩu dạng chữ thường trong file JSON
-  async hashPassword(password) {
-    const data = new TextEncoder().encode(password);
-    const buffer = await crypto.subtle.digest("SHA-256", data);
-    return Array.from(new Uint8Array(buffer))
-      .map((b) => b.toString(16).padStart(2, "0"))
-      .join("");
-  }
+ 
 
   async fetchJson(url, options) {
     const response = await fetch(url, options);
@@ -32,14 +25,13 @@ export default class AuthModel {
     return safe;
   }
 
-  async findByCredentials(api, email, password) {
-    const hashed = await this.hashPassword(password);
+   async findByCredentials(api, email, password) {
     const list = await this.fetchJson(
-      `${api}?email=${encodeURIComponent(email.toLowerCase())}&password=${hashed}`
+      `${api}?email=${encodeURIComponent(email.toLowerCase())}&password=${encodeURIComponent(password)}`
     );
     return list.length > 0 ? this.stripPassword(list[0]) : null;
   }
-
+    
   // Đăng nhập user
   loginUser(email, password) {
     return this.findByCredentials(this.accountsApi, email, password);
@@ -67,7 +59,7 @@ export default class AuthModel {
     const newAccount = {
       fullname,
       email: email.toLowerCase(),
-      password: await this.hashPassword(password),
+      password,
       role: "user",
       created_date: new Date().toISOString().slice(0, 19).replace("T", " "),
     };
