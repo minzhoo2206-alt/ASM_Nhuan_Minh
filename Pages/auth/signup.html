@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký tài khoản</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex min-h-screen items-center justify-center bg-gray-100 p-4">
+  <div class="w-full max-w-md rounded-xl bg-white p-8 shadow-lg">
+    <h2 class="mb-1 text-center text-2xl font-bold text-slate-800">Đăng ký</h2>
+    <p class="mb-6 text-center text-sm text-gray-500">🌶️ Ăn Vặt Cay Quán</p>
+
+    <div id="message"></div>
+
+    <form id="authForm" novalidate class="space-y-4">
+      <div>
+        <label for="fullname" class="mb-1 block text-sm font-semibold text-slate-700">Họ và tên</label>
+        <input id="fullname" name="fullname" type="text" placeholder="Nhập họ tên của bạn" autocomplete="name"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-orange-500 focus:outline-none">
+        <span data-error-for="fullname" class="text-xs text-red-600"></span>
+      </div>
+      <div>
+        <label for="email" class="mb-1 block text-sm font-semibold text-slate-700">Email</label>
+        <input id="email" name="email" type="email" placeholder="Nhập email của bạn" autocomplete="email"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-orange-500 focus:outline-none">
+        <span data-error-for="email" class="text-xs text-red-600"></span>
+      </div>
+      <div>
+        <label for="password" class="mb-1 block text-sm font-semibold text-slate-700">Mật khẩu</label>
+        <input id="password" name="password" type="password" placeholder="Tối thiểu 6 ký tự" autocomplete="new-password"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-orange-500 focus:outline-none">
+        <span data-error-for="password" class="text-xs text-red-600"></span>
+      </div>
+      <div>
+        <label for="confirm" class="mb-1 block text-sm font-semibold text-slate-700">Xác nhận mật khẩu</label>
+        <input id="confirm" name="confirm" type="password" placeholder="Nhập lại mật khẩu" autocomplete="new-password"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-orange-500 focus:outline-none">
+        <span data-error-for="confirm" class="text-xs text-red-600"></span>
+      </div>
+      <button type="submit" class="w-full rounded-lg bg-orange-600 py-2.5 font-semibold text-white hover:bg-orange-700">Đăng ký</button>
+    </form>
+
+    <p class="mt-5 text-center text-sm text-gray-600">
+      Đã có tài khoản?
+      <a href="/Pages/auth/login.html" class="font-semibold text-orange-600 hover:underline">Đăng nhập</a>
+    </p>
+  </div>
+
+  <script type="module">
+    import AuthModel from "../../Models/AuthModel.js";
+    import AuthView from "../../Views/AuthView.js";
+    import AuthController from "../../Controllers/AuthController.js";
+
+    new AuthController(new AuthModel(), new AuthView(), "signup");
+  </script>
+</body>
+</html>

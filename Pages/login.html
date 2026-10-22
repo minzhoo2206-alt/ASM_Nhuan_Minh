@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+
+        .login-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .field {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #218838;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #218838;
+        }
+
+        .error-msg {
+            color: red;
+            font-size: 13px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-card">
+        <h2>Đăng nhập</h2>
+        <form id="loginForm" novalidate>
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Nhập email của bạn!">
+                <span id="errEmail" class="error-msg"></span>
+            </div>
+            <div class="field">
+                <label for="password">Mật khẩu</label>
+                <input id="password" type="password" placeholder="••••••••">
+                <span id="errPass" class="error-msg"></span>
+            </div>
+            <button class="btn" type="submit">Đăng nhập</button>
+        </form>
+        <p class="footer">
+            Bạn chưa có tài khoản? <a href="/Pages/signup.html">Đăng ký</a>
+        </p>
+    </div>
+
+    <script src="/Compoment/login.js"></script>
+</body>
+
+</html>
